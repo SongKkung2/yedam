@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333333;
+}
+  
+a{
+    text-decoration: none;
+    color: inherit;
+}
+  
+ul,li{
+    list-style-type: none;
+}
+
+.header-wrap{
+    height: 100px;
+}
+.header{
+    display: flex;
+}
+.contents-wrap{
+    background: url(../images/businessman-g5441dd0d5_1920.jpg) center no-repeat;
+    height: 450px;
+}
+.contents-wrap h2{
+    color: #ffffff;
+}
+
+.contents{
+    text-align: center;
+    padding: 20px;
+}
+.contents a{
+    text-align: center;
+    padding: 20px;
+}
+
+.midmenu{
+    text-align: center;
+    height: 150px;
+    border-bottom: #0F70A3 solid 1px;
+}
+.midmenu h3{
+    display: inline-block;
+    padding: 60px;
+}
+.midtitle{
+    height: 100px;
+    border-bottom: #0F70A3 solid 1px;
+}
