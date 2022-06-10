@@ -52,3 +52,12 @@ ul,li{
     height: 100px;
     border-bottom: #0F70A3 solid 1px;
 }
+.contact-wrap{
+    text-align: center;
+}
+
+#ansdml{
+    width: 600px;
+    height: 500px;
+    border: 1px solid #333;
+}

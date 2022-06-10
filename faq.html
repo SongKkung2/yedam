@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="images/cost.svg" type="image/x-icon">
+    <title>예담</title>
     <link rel="stylesheet" href="css/j.css">
-    <script src="script/j.js"></script>
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- SmartEditor2 텍스트편집기 -->
+    <script type="text/javascript" src="static/js/service/HuskyEZCreator.js" charset="utf-8"></script>
 </head>
+
 <body>
     <div class="header-wrap">
         <div class="header">
@@ -37,8 +41,45 @@
     <div class="midtitle">
         <p>자주 묻는 질문</p>
     </div>
-    
-
+    <h1>문의하기</h1>
+    <div class="contact-wrap">
+        <form id="contact" autocomplete="off">
+            <div>
+                <input type="text" name="name" placeholder="성함을 입력하세요">
+            </div>
+            <div>
+                <select>
+                    <option value="010" selected>010</option>
+                    <option value="011">011</option>
+                    <option value="016">016</option>
+                    <option value="017">017</option>
+                    <option value="018">018</option>
+                    <option value="019">019</option>
+                  </select>-
+                <input type="tel" name="phone2" id="phone2" minlength="1" maxlength="4" pattern="[0-9]{4}">-
+                <input type="tel" name="phone3" id="phone3" minlength="1" maxlength="4">
+            </div>
+            <div>
+                <input type="text" name="email_id" id="email_id" placeholder="example" > @
+                <input type="text" name="email_addr" id="email_addr">
+                <select id="domain">
+                    <option value="1" selected>직접입력</option>
+                    <option value="google.com">google.com</option>
+                    <option value="naver.com">naver.com</option>
+                    <option value="daum.net">daum.net</option>
+                    <option value="kakao.com">kakao.com</option>
+                    <option value="nate.com">nate.com</option>
+                  </select>
+            </div>
+            <div>
+                <input type="text" id="ansdml" placeholder="문의사항을 입력해주세요!" style="height:500px">
+            </div>
+            <div>
+                <input type="submit" value="제출">
+            </div>
+        </form>
+    </div>
+<script src="/script/j.js"> </script>
 
 </body>
 </html>
