@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 ul,ol{
     list-style: none;
@@ -94,7 +95,7 @@ header{
                 max-width: 230px;
                 height: 40px;
                 font-size: 22px;
-                font-weight: bold;
+                font-weight: 400;
                 line-height: 40px;
                 text-align: center;
 
@@ -113,63 +114,6 @@ header{
             
         }
     }
-    .slide{
-        max-width: 100%;
-        height: 650px;
-        
-        .items-wrap{
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 100px;
-            z-index: 1;
-
-            #items{
-                overflow: hidden;
-                position: relative;
-                width: 100%;
-                height: 100%;
-
-                li{
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    img{
-                        width: 100%;
-                    }
-                }
-                
-            }
-        }
-        
-    }
-    .slide-text{
-        border-right: 1px solid #fff;
-        border-left: 1px solid #fff;
-        width: 1200px;
-        height: 650px;
-        position: absolute;
-        transform: translate(-50%,0);
-        // top: 225px;
-        top: 100px;
-        left: 50%;
-        z-index: 10;
-        color: white;
-        text-shadow: 0 0 5px black;
-        text-align: right;
-        padding: 200px 100px;
-        h2{
-            font-size: 44px;
-            line-height: 56px;
-            span{
-                font-size: 52px;
-            }
-        }
-    }
     
-}
-.section-wrap{
-    position: absolute;
-    top: 850px;
-    border-top: 10px solid #0F70A3 ;
+    
 }
