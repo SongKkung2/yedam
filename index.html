@@ -33,7 +33,7 @@
     </header>
     <div class="nav-slide-wrap">
         <nav>
-            <ul class="gnb">
+            <ul id="gnb">
                 <li>
                     <a href="#">예담</a>
                     <ul class="lnb">
@@ -67,11 +67,12 @@
                     </ul>
                 </li>
             </ul>
+            <div class="bg"></div>
         </nav>
         <div class="slide">
             <div class="items-wrap">
                 <ul id="items">
-                    <li><img src="images/index/hero1.jpg" alt=""></li>
+                    <li class="top"><img src="images/index/hero1.jpg" alt=""></li>
                     <li><img src="images/index/hero2.jpg" alt=""></li>
                     <li><img src="images/index/hero3.jpg" alt=""></li>
                     <li><img src="images/index/hero4.jpg" alt=""></li>
@@ -143,19 +144,27 @@
                 <div class="title">
                     <h2>About Yedam</h2>
                 </div>
-                <div class="about-content">
-                    <div class="about-slide">
-                        <ul id="about-itmes">
-                            <li><h4>장성 샹그릴라 아파트<br>200세대 점검</h4></li>
-                            <li><h4>경산 프루지오 아파트<br>754세대 점검</h4></li>
-                            <li><h4>인천 청라 미래도 아파트<br>256세대 점검</h4></li>
-                        </ul>
-                    </div>
-                    <div class="about-text">
-                        <h3><span>예담</span> 은 곧 경사입니다.</h3>
-                        <h4>2022 년 지금,<br><span>예담</span>은 고객님들의<br>신뢰로 자라왔습니다.</h4>
-                        <a href="#">상담신청</a>
-                        <button><img src="images/index/play.svg" alt="재생버튼"></button>
+                <div class="about-content-wrap">
+                    <div class="about-content">
+                        <div class="about-slide">
+                            <ul id="about_items">
+                                <li class="on">
+                                    <h4>장성 샹그릴라 아파트<br><span>200세대</span> 점검</h4>
+                                </li>
+                                <li>
+                                    <h4>경산 프루지오 아파트<br><span>754세대</span> 점검</h4>
+                                </li>
+                                <li>
+                                    <h4>인천 청라 미래도 아파트<br><span>256세대</span> 점검</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="about-text">
+                            <h3><span>예담</span> 은 곧 경사입니다.</h3>
+                            <h4>2022 년 지금,<br><span>예담</span>은 고객님들의<br>신뢰로 자라왔습니다.</h4>
+                            <a href="#">상담신청</a>
+                            <button id="play"><img src="images/index/play.svg" alt="재생버튼"></button>
+                        </div>
                     </div>
                 </div>
             </article>
@@ -163,7 +172,7 @@
                 <div class="title">
                     <h2>Service Course</h2>
                 </div>
-                <ul>
+                <ul class="course-contents">
                     <li>
                         <h4>Step.1</h4>
                         <img src="images/index/receipt-icon.svg" alt="신청 접수 아이콘">
@@ -187,35 +196,44 @@
                 </ul>
             </article>
             <article class="review">
-                <title><h2>
-                    Review
-                </h2></title>
-                <ul>
+                <div class="title">
+                    <h2>Review</h2>
+                </div>
+                <ul class="review-wrap">
                     <li>
                         <img src="images/index/review1.jpg" alt="리뷰이미지">
-                        <p>타일이 들떠있었는데, 찾아주셔서..</p>
-                        <h5>이지은</h5>
-                        <h6>2021/12/30</h6>
+                        <div class="review-text">
+                            <p>타일이 들떠있었는데, 찾아주셔서..</p>
+                            <h5>선영훈</h5>
+                            <h6>2021/12/30</h6>
+                        </div>
                     </li>
                     <li>
                         <img src="images/index/review2.jpg" alt="리뷰이미지">
-                        <p>현관문에 유격이 있어서 문이 안...</p>
-                        <h5>송채은</h5>
-                        <h6>2021/05/19</h6>
+                        <div class="review-text">
+                            <p>현관문에 유격이 있어서 문이 안...</p>
+                            <h5>송채은</h5>
+                            <h6>2021/05/19</h6>
+                        </div>
                     </li>
                     <li>
                         <img src="images/index/review3.jpg" alt="리뷰이미지">
-                        <p>누수가 있어서 곰팡이가 있었습...</p>
-                        <h5>오수진</h5>
-                        <h6>2021/03/03</h6>
+                        <div class="review-text">
+                            <p>누수가 있어서 곰팡이가 있었습...</p>
+                            <h5>오수진</h5>
+                            <h6>2021/03/03</h6>
+                        </div>
                     </li>
                     <li>
                         <img src="images/index/review4.jpg" alt="리뷰이미지">
-                        <p>벽지가 다 들떠있었습니다. 그냥...</p>
-                        <h5>조진양</h5>
-                        <h6>2021/07/07</h6>
+                        <div class="review-text">
+                            <p>벽지가 다 들떠있었습니다. 그냥...</p>
+                            <h5>조진양</h5>
+                            <h6>2021/07/07</h6>
+                        </div>
                     </li>
                 </ul>
+                <a href="#">상담 신청</a>
             </article>
         </section>
         <aside>
@@ -253,6 +271,7 @@
                     </ul>
                 </li>
             </ul>
+            <div class="line"></div>
         </aside>
         <footer>
             <div class="footer-wrap">
@@ -265,10 +284,11 @@
                     <p>주식회사 예담 | 대표자 : 강정구 |주소 : 광주광역시 북구 용주로 10 2</p>
                     <p>고객센터 : 1577-1603  | 운영시간 : 09:00 ~ 18:00 ) | 사업자 등록 번호 : 000-00-00000</p>
                     <p>계좌번호 : 광주은행 1514215-1264564 (입금자 명 : 주식회사 예담)</p>
-                    <p>Copyright ⓒ YEDAM. All Rights Reserved.</p>
+                    <h4>Copyright &copy; <span>YEDAM</span>. All Rights Reserved.</h4>
                 </div>
             </div>
         </footer>
     </div>
+    <script src="js/global.js"></script>
 </body>
 </html>

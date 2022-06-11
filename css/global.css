@@ -91,18 +91,17 @@ header .header-wrap .icons2 li img {
   border-bottom: 1px solid #fff;
 }
 
-.nav-slide-wrap nav .gnb {
+.nav-slide-wrap nav #gnb {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
-.nav-slide-wrap nav .gnb li {
+.nav-slide-wrap nav #gnb li {
   color: white;
   text-shadow: 0 0 3px black;
-  max-width: 230px;
+  width: 300px;
   height: 40px;
   font-size: 22px;
   font-weight: 400;
@@ -110,15 +109,105 @@ header .header-wrap .icons2 li img {
   text-align: center;
 }
 
-.nav-slide-wrap nav .gnb li .lnb {
+.nav-slide-wrap nav #gnb li .lnb {
+  z-index: 100;
   display: none;
 }
 
-.nav-slide-wrap nav .gnb li .lnb li {
-  max-width: 230px;
+.nav-slide-wrap nav #gnb li .lnb li {
+  max-width: 250px;
   height: 40px;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 400;
   line-height: 40px;
   text-align: center;
+}
+
+.nav-slide-wrap nav .bg {
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  z-index: 10;
+  display: none;
+}
+
+aside {
+  border-top: 1px solid #0F70A3;
+  width: 100%;
+  height: 300px;
+  border-bottom: 1px solid #0F70A3;
+}
+
+aside .bottom-gnb {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside .bottom-gnb li {
+  color: #0F70A3;
+  max-width: 230px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+}
+
+aside .bottom-gnb .bottom-lnb li {
+  color: #0F70A3;
+  max-width: 230px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+}
+
+aside .line {
+  width: 100%;
+  height: 1px;
+  background: #0F70A3;
+}
+
+footer {
+  background: #aebcc3;
+}
+
+footer .footer-wrap {
+  padding: 30px 0;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+footer .footer-wrap .logo {
+  height: 90px;
+}
+
+footer .footer-wrap .logo img {
+  height: 100%;
+}
+
+footer .footer-text {
+  padding-left: 30px;
+  color: #fff;
+}
+
+footer .footer-text p {
+  font-size: 16px;
+}
+
+footer .footer-text h4 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+footer .footer-text h4 span {
+  color: #0F70A3;
 }
