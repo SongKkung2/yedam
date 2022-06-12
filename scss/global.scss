@@ -19,7 +19,7 @@ body{
     position: relative;
 }
 header{
-    z-index: 1000;
+    z-index: 100;
     width: 100%;
     height: 100px;
     border-bottom: 1px solid #0F70A3;
@@ -71,62 +71,85 @@ header{
         }
     }
 }
+nav.hightlight{
+    background: #fff;
+    transition: all ease-in-out .3s;
+
+    #gnb{
+
+        li > a{
+            color: #0F70A3 !important;
+            text-shadow: none !important;
+
+        }
+    }
+
+    .nav-line{
+        border-bottom: 1px solid #0F70A3;
+    }
+}
 .nav-slide-wrap{
     width: 100%;
     
-
+    
     nav{
-        z-index: 1000;
+        transition: all ease-in-out .3s;
+        z-index: 100;
         width: 100%;
         position: fixed;
         top: 100px;
         border-bottom: 1px solid #fff;
-
+        
         #gnb{
             max-width: 1000px;
             margin: 0 auto;
             display: flex;
-            align-items: center;
     
-            li{
+            li > a{
+                display: block;
                 color: white;
                 text-shadow: 0 0 3px black;
-                width: 300px;
+                width: 250px;
                 height: 40px;
                 font-size: 22px;
                 font-weight: 400;
                 line-height: 40px;
                 text-align: center;
 
-                .lnb{
-                    z-index: 100;
-                    display: none;
-                    li{
-                        max-width: 250px;
-                        height: 40px;
-                        font-size: 22px;
-                        font-weight: 400;
-                        line-height: 40px;
-                        text-align: center;
-                    }
-                }
+                
             }
             
 
         }
-        .bg{
-            // background: #aebcc3;
-            border-bottom: 1px solid #fff;
-            width: 100%;
-            height: 150px;
-            position: absolute;
-            z-index: 10;
-            display: none;
-        }
+        
     }
     
     
 }
+.nav-line{
+    width: 100%;
+    height: 41px;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 100;
+}
+.lnb{
+    display: none;
+    li > a {
+        display: block;
+        width: 250px;
+        height: 40px;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: center;
+        // cursor: pointer;
+        // background: #0F70A3;
+    }
+}
+
 aside{
     border-top: 1px solid #0F70A3;
     width: 100%;

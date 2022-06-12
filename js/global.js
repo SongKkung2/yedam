@@ -6,11 +6,13 @@ $(function(){
 
 function menu(){
     $('nav').mouseenter(function(){
+        $(this).addClass("hightlight")
         $('.lnb').stop().slideDown();
         $('.bg').stop().slideDown();
     });
 
     $('nav').mouseleave(function(){
+        $(this).removeClass("hightlight")
         $('.lnb').stop().slideUp();
         $('.bg').stop().slideUp();
     });
