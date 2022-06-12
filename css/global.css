@@ -80,8 +80,9 @@ header .header-wrap .icons2 li img {
 }
 
 nav.hightlight {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
   transition: all ease-in-out .3s;
+  border-bottom: 1px solid #0F70A3 !important;
 }
 
 nav.hightlight #gnb li > a {
