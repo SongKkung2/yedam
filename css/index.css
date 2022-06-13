@@ -368,6 +368,11 @@
   border: 1px solid #0F70A3;
 }
 
+.about .about-content-wrap .about-content .about-text a:hover {
+  background: #0F70A3;
+  color: #fff;
+}
+
 .about .about-content-wrap .about-content .about-text button {
   width: 50px;
   border: 0;
@@ -375,6 +380,10 @@
   position: absolute;
   bottom: 10%;
   right: 10%;
+}
+
+#play:hover {
+  cursor: pointer;
 }
 
 .course {
@@ -396,6 +405,8 @@
 }
 
 .course .course-contents {
+  transition: all ease-in-out .3s;
+  box-sizing: border-box;
   max-width: 1200px;
   height: 400px;
   margin: 0 auto;
@@ -503,4 +514,13 @@
   font-weight: bold;
   border: 1px solid #0F70A3;
   color: #0F70A3;
+}
+
+.review a:hover {
+  background: #0F70A3;
+  color: #fff;
+}
+
+.P-none {
+  display: none !important;
 }

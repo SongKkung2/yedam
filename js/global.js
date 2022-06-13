@@ -2,6 +2,7 @@ $(function(){
     menu();
     let intervalID = setInterval(slide,5000);
     slide2();
+    animatescroll();
 })
 
 function menu(){
@@ -73,9 +74,9 @@ function slide2(){
 //     });
 // });
 
-$(window).scroll(function () { 
+$(window).scroll(function() { 
 	var scrollValue = $(document).scrollTop(); 
-    console.log(scrollValue); 
+    // console.log(scrollValue); 
 
     if(scrollValue > 0){
         $('nav').addClass('hightlight')
@@ -83,4 +84,30 @@ $(window).scroll(function () {
         $('nav').removeClass('hightlight')
     }
 });
+
+
+
+function animatescroll(){
+    $(window).scroll(function () { 
+        var scrollV = $(document).scrollTop(); 
+        // console.log(scrollV);
+        let offText = $('.text-wrap').offset().top;
+        let offCourse = $('.course-contents li').offset().top;
+        // console.log(off);
+    
+        let valueText = scrollV - offText
+        let valueCourse = scrollV - offCourse
+        console.log(valueCourse);
+    
+        if(valueText > 1300){
+            $('.text-wrap').addClass('animate__animated')
+            $('.text-wrap').removeClass('P-none')
+        }
+        if(valueCourse > 1700){
+            $('.course-contents li').addClass('animate__animated')
+            $('.course-contents li').removeClass('P-none')
+        }
+    });
+}
+
 

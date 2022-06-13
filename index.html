@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
     <script src="./js/juqery.3.6.0.min.js"></script>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/index.css"> 
     <link rel="stylesheet" href="./css/global.css">
     <title>기술법인 예담</title>
@@ -31,6 +37,49 @@
             </ul>
         </div>
     </header>
+    <div class="mobile-menu">
+        <div class="mobile-logo">
+            <img src="./images/logo.svg" alt="로고 이미지">
+        </div>
+        <div class="burger-menu">
+            <ul class="burder-icon">
+                <li><img src="./images/mobile-burger.svg" alt="버거메뉴"></li>
+            </ul>
+            <ul id="gnb-mobile">
+                <li>
+                    <a href="#">예담</a>
+                    <ul class="lnb">
+                        <li><a href="#">회사 소개</a></li>
+                        <li><a href="#">주요 이력</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">다조사</a>
+                    <ul class="lnb-mobile">
+                        <li><a href="#">다조사 Why?</a></li>
+                        <li><a href="#">다조사 장비</a></li>
+                        <li><a href="#">다조사 신청하기</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">서비스</a>
+                    <ul class="lnb-mobile">
+                        <li><a href="#">서비스 절차</a></li>
+                        <li><a href="#">보고서 작성</a></li>
+                        <li><a href="#">서비스 신청하기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">고객 지원</a>
+                    <ul class="lnb-mobile">
+                        <li><a href="#">상담 신청</a></li>
+                        <li><a href="#">고객 후기</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
     <div class="nav-slide-wrap">
         <nav>
             <ul id="gnb">
@@ -47,6 +96,7 @@
                         <li><a href="#">다조사 Why?</a></li>
                         <li><a href="#">다조사 장비</a></li>
                         <li><a href="#">다조사 신청하기</a></li>
+                        <li><a href="#"></a></li>
                     </ul>
                 </li>
                 <li>
@@ -62,8 +112,6 @@
                     <ul class="lnb">
                         <li><a href="#">상담 신청</a></li>
                         <li><a href="#">고객 후기</a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
                     </ul>
                 </li>
             </ul>
@@ -73,14 +121,14 @@
             <div class="items-wrap">
                 <ul id="items">
                     <li class="top"><img src="./images/index/hero1.jpg" alt=""></li>
-                    <li><img src="./images/index/hero2.jpg" alt=""></li>
-                    <li><img src="./images/index/hero3.jpg" alt=""></li>
-                    <li><img src="./images/index/hero4.jpg" alt=""></li>
+                    <li><img src="./images/index/hero2.jpg" alt="히어로1"></li>
+                    <li><img src="./images/index/hero3.jpg" alt="히어로2"></li>
+                    <li><img src="./images/index/hero4.jpg" alt="히어로3"></li>
                 </ul>
             </div>
         </div>
         <div class="slide-text">
-            <h2>우리가족<br>새 보금자리<br><span>예담</span>이 지켜드립니다.</h2>
+            <h2 class="animate__animated animate__fadeInUp">우리가족<br>새 보금자리<br><span>예담</span>이 지켜드립니다.</h2>
             <div class="btn-wrap">
                 <div class="btn-1"><a href="#">다조사 서비스</a></div>
                 <div class="btn-2"><a href="#">상담신청</a></div>
@@ -160,9 +208,11 @@
                             </ul>
                         </div>
                         <div class="about-text">
-                            <h3><span>예담</span> 은 곧 경사입니다.</h3>
-                            <h4>2022 년 지금,<br><span>예담</span>은 고객님들의<br>신뢰로 자라왔습니다.</h4>
-                            <a href="#">상담신청</a>
+                            <div class="P-none text-wrap animate__fadeIn">
+                                <h3><span>예담</span> 은 곧 경사입니다.</h3>
+                                <h4>2022 년 지금,<br><span>예담</span>은 고객님들의<br>신뢰로 자라왔습니다.</h4>
+                                <a href="#">상담신청</a>
+                            </div>
                             <button id="play"><img src="./images/index/play.svg" alt="재생버튼"></button>
                         </div>
                     </div>
@@ -172,23 +222,23 @@
                 <div class="title">
                     <h2>Service Course</h2>
                 </div>
-                <ul class="course-contents">
-                    <li>
+                <ul class="course-contents animate__fadeInUp">
+                    <li class="P-none animate__fadeInUp">
                         <h4>Step.1</h4>
                         <img src="./images/index/receipt-icon.svg" alt="신청 접수 아이콘">
                         <p>신청접수</p>
                     </li>
-                    <li>
+                    <li class="P-none animate__fadeInUp">
                         <h4>Step.2</h4>
                         <img src="./images/index/calendar.svg" alt="일정 확인 아이콘">
                         <p>일정 확인</p>
                     </li>
-                    <li>
+                    <li class="P-none animate__fadeInUp">
                         <h4>Step.3</h4>
-                        <img src="./images/index/ inspection-icon.svg" alt="현장점검 아이콘">
+                        <img src="./images/index/inspection-icon.svg" alt="현장점검 아이콘">
                         <p>현장 점검</p>
                     </li>
-                    <li>
+                    <li class="P-none animate__fadeInUp">
                         <h4>Step.4</h4>
                         <img src="images/index/text-icon.svg" alt="보고서 작성 아이콘">
                         <p>보고서 작성</p>

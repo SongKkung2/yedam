@@ -1,4 +1,5 @@
 
+
 .nav-slide-wrap{
     .slide{
         max-width: 100%;
@@ -367,7 +368,10 @@
                     font-weight: bold;
                     border: 1px solid #0F70A3;
                 }
-
+                a:hover{
+                    background: #0F70A3;
+                    color: #fff;
+                }
                 button{
                     width: 50px;
                     border: 0;
@@ -376,11 +380,14 @@
                     bottom: 10%;
                     right: 10%;
                 }
+
             }
         }
     }
 }
-
+#play:hover{
+    cursor: pointer;
+}
 .course{
 
     background: #f8fdff;
@@ -402,6 +409,8 @@
     }
 
     .course-contents{
+        transition: all ease-in-out .3s;
+        box-sizing: border-box;
         max-width: 1200px;
         height: 400px;
         margin: 0 auto;
@@ -512,4 +521,11 @@
         color: #0F70A3
         
     }
+    a:hover{
+        background: #0F70A3;
+        color: #fff;
+    }
+}
+.P-none{
+    display: none !important;
 }
