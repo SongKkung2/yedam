@@ -356,23 +356,6 @@
   font-size: 24px;
 }
 
-.about .about-content-wrap .about-content .about-text a {
-  display: inline-block;
-  width: 230px;
-  height: 50px;
-  text-align: center;
-  line-height: 44px;
-  margin-top: 40px;
-  font-size: 22px;
-  font-weight: bold;
-  border: 1px solid #0F70A3;
-}
-
-.about .about-content-wrap .about-content .about-text a:hover {
-  background: #0F70A3;
-  color: #fff;
-}
-
 .about .about-content-wrap .about-content .about-text button {
   width: 50px;
   border: 0;
@@ -380,6 +363,62 @@
   position: absolute;
   bottom: 10%;
   right: 10%;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.about .about-content-wrap .about-content .about-text a {
+  display: inline-block;
+  width: 230px;
+  height: 50px;
+}
+
+.about .about-content-wrap .about-content .about-text a .custom-btn {
+  width: 230px;
+  height: 50px;
+  color: #0F70A3;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #0F70A3;
+  outline: none;
+}
+
+.about .about-content-wrap .about-content .about-text a .btn-15 {
+  background: #fff;
+  border: 1px solid #0F70A3;
+  z-index: 1;
+}
+
+.about .about-content-wrap .about-content .about-text a .btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #0F70A3;
+  transition: all 0.3s ease;
+}
+
+.about .about-content-wrap .about-content .about-text a .btn-15:hover {
+  color: #fff;
+}
+
+.about .about-content-wrap .about-content .about-text a .btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.about .about-content-wrap .about-content .about-text a .btn-15:active {
+  top: 2px;
 }
 
 #play:hover {
@@ -445,6 +484,13 @@
   margin-top: 10px;
 }
 
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .review .title {
   height: 100px;
 }
@@ -463,6 +509,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 30px;
   margin-bottom: 100px;
 }
 
@@ -503,22 +550,55 @@
 }
 
 .review a {
-  display: block;
-  width: 230px;
-  height: 50px;
-  margin: 0 auto;
   margin-bottom: 100px;
-  text-align: center;
-  line-height: 44px;
-  font-size: 22px;
-  font-weight: bold;
-  border: 1px solid #0F70A3;
-  color: #0F70A3;
 }
 
-.review a:hover {
-  background: #0F70A3;
+.review a .custom-btn {
+  width: 230px;
+  height: 50px;
+  color: #0F70A3;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #0F70A3;
+  outline: none;
+}
+
+.review a .btn-15 {
+  background: #fff;
+  border: 1px solid #0F70A3;
+  z-index: 1;
+}
+
+.review a .btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #0F70A3;
+  transition: all 0.3s ease;
+}
+
+.review a .btn-15:hover {
   color: #fff;
+}
+
+.review a .btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.review a .btn-15:active {
+  top: 2px;
 }
 
 .P-none {

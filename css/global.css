@@ -241,25 +241,59 @@ footer .footer-text h4 span {
     height: 50px;
     border-bottom: 1px solid #0F70A3;
     display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
+    align-items: center;
   }
   .mobile-logo {
     height: 40px;
-    text-align: center;
+    margin: 0 auto;
   }
   .mobile-logo img {
     height: 100%;
   }
   .burder-icon {
     width: 30px;
+    position: absolute;
+    transform: translate(-100%, -50%);
+    top: 50%;
+    right: -20px;
   }
   .burder-icon li > img {
     width: 100%;
   }
   #gnb-mobile {
     display: none;
+  }
+  .mobile-slide {
+    width: 100%;
+    height: 250px;
+  }
+  .mobile-slide .items-wrap {
+    width: 100%;
+    height: 100%;
+  }
+  .mobile-slide .items-wrap #items2 {
+    width: 100%;
+    height: 250px;
+    position: relative;
+  }
+  .mobile-slide .items-wrap #items2 li {
+    transition: all ease-in-out .5s;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+  }
+  .mobile-slide .items-wrap #items2 li img {
+    width: 100%;
+    height: 100%;
+  }
+  .mobile-slide .items-wrap #items2 li.top {
+    z-index: 1;
+    opacity: 1 !important;
   }
   header {
     display: none;

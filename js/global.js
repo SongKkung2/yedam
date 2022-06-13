@@ -1,6 +1,7 @@
 $(function(){
     menu();
     let intervalID = setInterval(slide,5000);
+    let interval2ID = setInterval(slideM,5000);
     slide2();
     animatescroll();
 })
@@ -33,6 +34,15 @@ function slide(){
     let NextItem = CurrItem.next();
 
     if(!NextItem.length){NextItem = $("#items > li:first")}
+
+    CurrItem.removeClass("top")
+    NextItem.addClass("top")
+}
+function slideM(){
+    let CurrItem = $("#items2 > li.top")
+    let NextItem = CurrItem.next();
+
+    if(!NextItem.length){NextItem = $("#items2 > li:first")}
 
     CurrItem.removeClass("top")
     NextItem.addClass("top")
