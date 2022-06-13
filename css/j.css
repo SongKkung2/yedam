@@ -52,12 +52,31 @@ ul,li{
     height: 100px;
     border-bottom: #0F70A3 solid 1px;
 }
-.contact-wrap{
+/* .contact-wrap{
     text-align: center;
-}
+} */
 
-#ansdml{
-    width: 600px;
-    height: 500px;
-    border: 1px solid #333;
+.subbtn{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px 0 ;
+}
+.contact-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 30px;
+}
+#contact div{
+    padding: 10px;
+    
+}
+.container{
+    max-width: 1200px;
 }

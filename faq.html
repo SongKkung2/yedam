@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/cost.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="images/cost.svg" type="image/x-icgiton">
     <title>예담</title>
     <link rel="stylesheet" href="css/j.css">
-    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- SmartEditor2 텍스트편집기 -->
-    <script type="text/javascript" src="static/js/service/HuskyEZCreator.js" charset="utf-8"></script>
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- 서머노트를 위해 추가해야할 부분 -->
+    <script src="summerNote/summernote-lite.js"></script>
+    <script src="summerNote/summernote-lite.css"></script>
+    <link rel="stylesheet" href="summerNote/summernote-lite.css">
+    <!--  -->
 </head>
 
 <body>
@@ -55,7 +63,7 @@
                     <option value="017">017</option>
                     <option value="018">018</option>
                     <option value="019">019</option>
-                  </select>-
+                </select>-
                 <input type="tel" name="phone2" id="phone2" minlength="1" maxlength="4" pattern="[0-9]{4}">-
                 <input type="tel" name="phone3" id="phone3" minlength="1" maxlength="4">
             </div>
@@ -69,17 +77,26 @@
                     <option value="daum.net">daum.net</option>
                     <option value="kakao.com">kakao.com</option>
                     <option value="nate.com">nate.com</option>
-                  </select>
+                </select>
             </div>
-            <div>
-                <input type="text" id="ansdml" placeholder="문의사항을 입력해주세요!" style="height:500px">
+            
+        </form>
+        <div class="container-wrap">
+            <div class="container">
+                <textarea class="summernote" name="editordata"></textarea>
             </div>
-            <div>
+            <div class="subbtn">
                 <input type="submit" value="제출">
             </div>
-        </form>
+        </div>
     </div>
-<script src="/script/j.js"> </script>
-
+    <script>
+      $('.summernote').summernote({
+            height: 450,
+            lang: "ko-KR"
+          });
+      </script>
+    <script src="/script/j.js"> </script>
+    
 </body>
 </html>
