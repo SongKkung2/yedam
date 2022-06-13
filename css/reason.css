@@ -1,0 +1,236 @@
+a, a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.d-none {
+  display: none;
+}
+
+.hero-wrap {
+  position: relative;
+}
+
+.hero-wrap .text {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 36px;
+  text-shadow: 0px 0px 5px black;
+}
+
+.hero-wrap .hero {
+  background: url(../images/sujin/dazosa/dazosa-hero.png) no-repeat center/cover;
+  width: 100%;
+  height: 450px;
+}
+
+.dazosa-tab {
+  max-width: 480px;
+  margin: 0 auto;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 22px;
+  color: #0F70A3;
+}
+
+.why h4 {
+  border-top: 1px solid #0F70A3;
+  border-bottom: 1px solid #0F70A3;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  font-size: 26px;
+  color: #0F70A3;
+}
+
+.why .why-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 450px;
+  overflow: hidden;
+}
+
+.why .why-text .line img {
+  width: 200px;
+  height: 100%;
+}
+
+.why .why-text p {
+  display: block;
+  line-height: 50px;
+  font-size: 24px;
+  color: #0F70A3;
+  margin: 0 0.5rem;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.needs-wrap {
+  margin: 0 auto;
+  color: #0F70A3;
+  border-top: 1px solid #0F70A3;
+  border-bottom: 1px solid #0F70A3;
+}
+
+.needs-wrap h4 {
+  font-size: 26px;
+  text-align: center;
+  margin: 30px 0 40px 0;
+}
+
+.needs-wrap .needs1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 35px;
+          column-gap: 35px;
+  margin-bottom: 35px;
+}
+
+.needs-wrap .needs1 .reason1 {
+  width: 450px;
+  height: 225px;
+  border: 1px solid #0F70A3;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 30px;
+}
+
+.needs-wrap .needs1 .reason1 img {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0 30px 0;
+}
+
+.needs-wrap .needs1 .reason2 {
+  width: 450px;
+  height: 225px;
+  border: 1px solid #0F70A3;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 30px;
+}
+
+.needs-wrap .needs1 .reason2 img {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0 30px 0;
+}
+
+.needs-wrap .needs2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 35px;
+          column-gap: 35px;
+}
+
+.needs-wrap .needs2 .reason3 {
+  width: 450px;
+  height: 225px;
+  border: 1px solid #0F70A3;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 30px;
+}
+
+.needs-wrap .needs2 .reason3 img {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0 30px 0;
+}
+
+.needs-wrap .needs2 .reason4 {
+  width: 450px;
+  height: 225px;
+  border: 1px solid #0F70A3;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 30px;
+}
+
+.needs-wrap .needs2 .reason4 img {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0 30px 0;
+}
+
+.needs-wrap .reason-text {
+  width: 1000px;
+  margin: 50px auto;
+  line-height: 30px;
+}
+
+.work {
+  color: #0F70A3;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 480px;
+  overflow: hidden;
+  position: relative;
+}
+
+.work .worklist-wrap h4 {
+  font-size: 26px;
+  text-align: center;
+  margin: 30px 0 40px 0;
+}
+
+.work .worklist-wrap .worklist {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.work .worklist-wrap .worklist li {
+  list-style: disc;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.work .line2 {
+  padding-left: 100px;
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  z-index: 100;
+  right: 10%;
+  top: -3px;
+}
+
+.work .line2 img {
+  height: 100%;
+}
