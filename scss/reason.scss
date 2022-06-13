@@ -76,15 +76,16 @@ ul, ol {
             img{
             width: 200px;
             height: 100%;
-        }
+            }
         }
         p {
             display: block;
             line-height: 50px;
             font-size: 24px;
             color: $point-color-blue;
-            margin: 0 0.5rem;
-            animation-duration: 2s;
+        }
+        .animate__fadeInUp {
+            margin-bottom: -700px;
         }
     }
 

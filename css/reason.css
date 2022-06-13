@@ -82,9 +82,10 @@ ul, ol {
   line-height: 50px;
   font-size: 24px;
   color: #0F70A3;
-  margin: 0 0.5rem;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+}
+
+.why .why-text .animate__fadeInUp {
+  margin-bottom: -700px;
 }
 
 .needs-wrap {
