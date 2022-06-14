@@ -1,11 +1,22 @@
-.section-wrap{
+.section-wrap {
+    font-family: 'Noto Sans KR', sans-serif;
     position: absolute;
-    top: 100px;
-}
-
-.ang{
-    box-sizing: border-box;
     width: 100%;
-    height: 100000px;
-    background: black;
-}
+    top: 100px;
+    left: 0;
+  }
+  
+  .hero {
+    width: 100%;
+    height: 650px;
+    background: url('../images/comapny/hero1.jpg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero > img{
+    width: 450px;
+    height: auto;
+    
+  }
+
