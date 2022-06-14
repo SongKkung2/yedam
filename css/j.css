@@ -23,7 +23,7 @@ ul,li{
     display: flex;
 }
 .contents-wrap{
-    background: url(../images/businessman-g5441dd0d5_1920.jpg) center no-repeat;
+    background: url(../images/jinyang/Rectangle\ 54.png) center no-repeat;
     height: 450px;
 }
 .contents-wrap h2{
@@ -36,12 +36,14 @@ ul,li{
 }
 .contents a{
     text-align: center;
+    font-size: 18px;
+    color: #7B7979;
     padding: 20px;
 }
 
 .midmenu{
     text-align: center;
-    height: 150px;
+    height: 200px;
     border-bottom: #0F70A3 solid 1px;
 }
 .midmenu h3{
@@ -49,12 +51,12 @@ ul,li{
     padding: 60px;
 }
 .midtitle{
-    height: 100px;
     border-bottom: #0F70A3 solid 1px;
 }
-/* .contact-wrap{
-    text-align: center;
-} */
+.midtitle h2{
+    border-bottom: #0F70A3 solid 1px;
+    padding: 30px;
+}
 
 .subbtn{
     display: flex;
@@ -79,4 +81,57 @@ ul,li{
 }
 .container{
     max-width: 1200px;
+}
+.midtitle{
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.mid1, .mid2, .mid3, .mid4{
+    width: 700px;
+    height: 450px;
+    
+}
+.mid1{
+    border-right: 1px solid #0F70A3;
+    border-bottom: 1px solid #0F70A3;
+}
+.mid2{
+    border-left: 1px solid #0F70A3;
+    border-bottom: 1px solid #0F70A3;
+}
+.mid3{
+    border-right: 1px solid #0F70A3;
+    border-top: 1px solid #0F70A3;
+}
+.mid4{
+    border-left: 1px solid #0F70A3;
+    border-top: 1px solid #0F70A3;
+}
+.m1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.m2{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.midwrap{
+    margin: 0 auto;
+}
+.question{
+    color: #0F70A3;
+    padding: 30px;
+}
+.answer{
+    color: #0F70A3;
+    font-weight: bolder;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    padding: 30px;
+    border-bottom: #0F70A3 1px solid;
 }
