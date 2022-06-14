@@ -235,6 +235,18 @@ footer{
     }
 }
 @media only screen and (max-width: 425px){
+    .P-none{
+        display: block !important;
+    }
+    header{
+        display: none;
+    }
+    .nav-slide-wrap{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
     .mobile-menu{
         display: block;
         box-sizing: border-box;
