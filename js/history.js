@@ -22,7 +22,7 @@ function animatescroll2(){
         let valueText1 = scrollV - offText1
         let valueText2 = scrollV - offText2
         let valueText3 = scrollV - offText3
-        console.log(valueText3);
+        // console.log(valueText3);
     
         if(valueText0 > 470){
             $('.history-text li').eq(0).addClass('animate__animated')

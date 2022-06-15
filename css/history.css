@@ -36,7 +36,7 @@
   font-weight: 400;
 }
 
-.title > li:nth-child(1) {
+.title > li:nth-child(2) {
   font-weight: bold;
 }
 
@@ -49,6 +49,10 @@
   text-align: center;
   border-bottom: 1px solid #0F70A3;
   color: #0F70A3;
+}
+
+.history .mobile-history {
+  display: none;
 }
 
 .history .history-wrap {
@@ -113,6 +117,10 @@
 .performance {
   width: 100%;
   border-top: 1px solid #0F70A3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .performance h2 {
@@ -123,4 +131,182 @@
   line-height: 100px;
   text-align: center;
   color: #0F70A3;
+}
+
+.performance a {
+  margin-bottom: 100px;
+}
+
+.performance a .custom-btn {
+  width: 230px;
+  height: 50px;
+  color: #0F70A3;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #0F70A3;
+  outline: none;
+}
+
+.performance a .btn-15 {
+  background: #fff;
+  border: 1px solid #0F70A3;
+  z-index: 1;
+}
+
+.performance a .btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #0F70A3;
+  transition: all 0.3s ease;
+}
+
+.performance a .btn-15:hover {
+  color: #fff;
+}
+
+.performance a .btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.performance a .btn-15:active {
+  top: 2px;
+}
+
+.performance .m-btn {
+  display: none;
+}
+
+.card {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.card > li {
+  width: 300px;
+  height: 400px;
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card > li:nth-child(1) {
+  background: url("../images/comapny/appartment1.jpg") no-repeat center/cover;
+}
+
+.card > li:nth-child(2) {
+  background: url("../images/comapny/appartment2.jpg") no-repeat center/cover;
+}
+
+.card > li:nth-child(3) {
+  background: url("../images/comapny/appartment3.jpg") no-repeat center/cover;
+  font-size: 26px;
+}
+
+.modal {
+  border: 3px solid #fff;
+  width: 280px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.text h3 {
+  margin: 10px 0;
+}
+
+.card > li:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out .3s;
+}
+
+.performance > h4 {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 18px;
+  color: #0F70A3;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 425px) {
+  .section-wrap {
+    top: 50px;
+    left: 0;
+  }
+  .hero {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero > img {
+    width: 200px;
+    height: auto;
+  }
+  .title {
+    font-size: 18px;
+    height: 50px;
+  }
+  .history h2 {
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .history .mobile-history {
+    padding: 20px;
+    display: block;
+  }
+  .history .history-wrap {
+    display: none;
+  }
+  .performance h2 {
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .performance a.m-none {
+    display: none;
+  }
+  .performance .m-btn {
+    display: block;
+  }
+  .card {
+    width: 100%;
+    column-gap: 20px;
+  }
+  .card > li {
+    width: 100px;
+    height: 140px;
+    font-size: 14px;
+  }
+  .modal {
+    width: 90px;
+    height: 130px;
+    border: 1px solid #fff;
+  }
 }
