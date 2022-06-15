@@ -23,11 +23,19 @@ span {
   display: none;
 }
 
-.hero-wrap {
+.section-wrap {
+  font-family: 'Noto Sans KR', sans-serif;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  left: 0;
+}
+
+.section-wrap .hero-wrap {
   position: relative;
 }
 
-.hero-wrap .hero-text {
+.section-wrap .hero-wrap .hero-text {
   color: #fff;
   position: absolute;
   top: 45%;
@@ -36,19 +44,19 @@ span {
   text-shadow: 0px 0px 5px black;
 }
 
-.hero-wrap .hero {
-  background: url(../images/sujin/service/service-hero.png) no-repeat center/cover;
+.section-wrap .hero-wrap .hero {
+  background: url(../images/service/service-hero.png) no-repeat center/cover;
   width: 100%;
   height: 450px;
 }
 
-.service-tab-wrap {
+.section-wrap .service-tab-wrap {
   width: 100%;
   border-top: 1px solid #0F70A3;
   border-bottom: 1px solid #0F70A3;
 }
 
-.service-tab-wrap .service-tab {
+.section-wrap .service-tab-wrap .service-tab {
   max-width: 480px;
   margin: 0 auto;
   height: 100px;
@@ -64,7 +72,7 @@ span {
   color: #0F70A3;
 }
 
-.service-step-wrap {
+.section-wrap .service-step-wrap {
   max-width: 1200px;
   margin: 0 auto;
   color: #0F70A3;
@@ -72,7 +80,7 @@ span {
   overflow: hidden;
 }
 
-.service-step-wrap .centerline {
+.section-wrap .service-step-wrap .centerline {
   position: absolute;
   top: 0;
   left: 600px;
@@ -81,7 +89,7 @@ span {
   background: #0F70A3;
 }
 
-.service-step-wrap .service-step1 {
+.section-wrap .service-step-wrap .service-step1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,12 +102,12 @@ span {
   padding: 100px 50px 50px 50px;
 }
 
-.service-step-wrap .service-step1 .step1 {
+.section-wrap .service-step-wrap .service-step1 .step1 {
   position: relative;
   width: 550px;
 }
 
-.service-step-wrap .service-step1 .step1 h5 {
+.section-wrap .service-step-wrap .service-step1 .step1 h5 {
   width: 100%;
   position: absolute;
   top: -50px;
@@ -108,17 +116,17 @@ span {
   border-bottom: 1px solid #0F70A3;
 }
 
-.service-step-wrap .service-step1 .step1 li {
+.section-wrap .service-step-wrap .service-step1 .step1 li {
   font-size: 24px;
   line-height: 40px;
 }
 
-.service-step-wrap .service-step1 img {
+.section-wrap .service-step-wrap .service-step1 img {
   width: 460px;
   height: 300px;
 }
 
-.service-step-wrap .service-step2 {
+.section-wrap .service-step-wrap .service-step2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,17 +139,17 @@ span {
   padding: 50px 50px;
 }
 
-.service-step-wrap .service-step2 img {
+.section-wrap .service-step-wrap .service-step2 img {
   width: 460px;
   height: 300px;
 }
 
-.service-step-wrap .service-step2 .step2 {
+.section-wrap .service-step-wrap .service-step2 .step2 {
   position: relative;
   width: 550px;
 }
 
-.service-step-wrap .service-step2 .step2 h5 {
+.section-wrap .service-step-wrap .service-step2 .step2 h5 {
   width: 100%;
   position: absolute;
   top: -50px;
@@ -151,13 +159,13 @@ span {
   border-bottom: 1px solid #0F70A3;
 }
 
-.service-step-wrap .service-step2 .step2 li {
+.section-wrap .service-step-wrap .service-step2 .step2 li {
   text-align: right;
   font-size: 24px;
   line-height: 40px;
 }
 
-.service-step-wrap .service-step3 {
+.section-wrap .service-step-wrap .service-step3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,12 +178,12 @@ span {
   padding: 50px 50px;
 }
 
-.service-step-wrap .service-step3 .step3 {
+.section-wrap .service-step-wrap .service-step3 .step3 {
   position: relative;
   width: 550px;
 }
 
-.service-step-wrap .service-step3 .step3 h5 {
+.section-wrap .service-step-wrap .service-step3 .step3 h5 {
   width: 100%;
   position: absolute;
   top: -50px;
@@ -184,17 +192,17 @@ span {
   border-bottom: 1px solid #0F70A3;
 }
 
-.service-step-wrap .service-step3 .step3 li {
+.section-wrap .service-step-wrap .service-step3 .step3 li {
   font-size: 24px;
   line-height: 40px;
 }
 
-.service-step-wrap .service-step3 img {
+.section-wrap .service-step-wrap .service-step3 img {
   width: 460px;
   height: 300px;
 }
 
-.service-step-wrap .service-step4 {
+.section-wrap .service-step-wrap .service-step4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,17 +215,17 @@ span {
   padding: 50px 50px 100px 50px;
 }
 
-.service-step-wrap .service-step4 img {
+.section-wrap .service-step-wrap .service-step4 img {
   width: 460px;
   height: 300px;
 }
 
-.service-step-wrap .service-step4 .step4 {
+.section-wrap .service-step-wrap .service-step4 .step4 {
   position: relative;
   width: 550px;
 }
 
-.service-step-wrap .service-step4 .step4 h5 {
+.section-wrap .service-step-wrap .service-step4 .step4 h5 {
   width: 100%;
   position: absolute;
   top: -50px;
@@ -227,13 +235,13 @@ span {
   border-bottom: 1px solid #0F70A3;
 }
 
-.service-step-wrap .service-step4 .step4 li {
+.section-wrap .service-step-wrap .service-step4 .step4 li {
   font-size: 24px;
   text-align: right;
   line-height: 40px;
 }
 
-.guide-title {
+.section-wrap .guide-title {
   width: 100%;
   height: 100px;
   line-height: 100px;
@@ -244,7 +252,7 @@ span {
   color: #0F70A3;
 }
 
-.guide-wrap {
+.section-wrap .guide-wrap {
   max-width: 1200px;
   margin: 0 auto;
   height: 900px;
@@ -253,7 +261,7 @@ span {
   border-right: 1px solid #0F70A3;
 }
 
-.guide-wrap .guide-icon-wrap {
+.section-wrap .guide-wrap .guide-icon-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -264,75 +272,75 @@ span {
   padding: 50px 0;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon1 {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon1 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   text-align: center;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon1 img {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon1 img {
   width: 150px;
   height: 150px;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon1 p {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon1 p {
   font-size: 18px;
   padding-top: 30px;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon2 {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon2 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   text-align: center;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon2 img {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon2 img {
   width: 150px;
   height: 150px;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon2 p {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon2 p {
   font-size: 18px;
   padding-top: 30px;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon3 {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon3 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   text-align: center;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon3 img {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon3 img {
   width: 150px;
   height: 150px;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon3 p {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon3 p {
   font-size: 18px;
   padding-top: 30px;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon4 {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon4 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   text-align: center;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon4 img {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon4 img {
   width: 150px;
   height: 150px;
 }
 
-.guide-wrap .guide-icon-wrap .guide-icon4 p {
+.section-wrap .guide-wrap .guide-icon-wrap .guide-icon4 p {
   font-size: 18px;
   padding-top: 30px;
 }
 
-.guide-wrap .guide-text {
+.section-wrap .guide-wrap .guide-text {
   max-width: 1200px;
   margin: 50px auto;
   font-size: 22px;
@@ -341,11 +349,11 @@ span {
   padding-left: 100px;
 }
 
-.charge-wrap {
+.section-wrap .charge-wrap {
   color: #0F70A3;
 }
 
-.charge-wrap h4 {
+.section-wrap .charge-wrap h4 {
   font-size: 28px;
   color: #0F70A3;
   text-align: center;
@@ -355,7 +363,7 @@ span {
   line-height: 100px;
 }
 
-.charge-wrap .charge {
+.section-wrap .charge-wrap .charge {
   max-width: 1200px;
   margin: 0 auto;
   display: -webkit-box;
@@ -371,7 +379,7 @@ span {
   border-right: 1px solid #0F70A3;
 }
 
-.charge-wrap .charge .one {
+.section-wrap .charge-wrap .charge .one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -387,12 +395,12 @@ span {
   padding: 30px 100px 0 0;
 }
 
-.charge-wrap .charge .one img {
+.section-wrap .charge-wrap .charge .one img {
   width: 160px;
   height: 180px;
 }
 
-.charge-wrap .charge .group {
+.section-wrap .charge-wrap .charge .group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -407,12 +415,12 @@ span {
   padding: 30px 0;
 }
 
-.charge-wrap .charge .group img {
+.section-wrap .charge-wrap .charge .group img {
   width: 160px;
   height: 180px;
 }
 
-.cs-call-wrap {
+.section-wrap .cs-call-wrap {
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 0;
@@ -431,27 +439,27 @@ span {
   border-right: 1px solid #0F70A3;
 }
 
-.cs-call-wrap img {
+.section-wrap .cs-call-wrap img {
   width: 180px;
   height: 180px;
 }
 
-.cs-call-wrap .cs-call-text {
+.section-wrap .cs-call-wrap .cs-call-text {
   text-align: center;
   color: #0F70A3;
 }
 
-.cs-call-wrap .cs-call-text p {
+.section-wrap .cs-call-wrap .cs-call-text p {
   font-size: 26px;
   line-height: 40px;
   margin-bottom: 30px;
 }
 
-.cs-call-wrap .cs-call-text a {
+.section-wrap .cs-call-wrap .cs-call-text a {
   margin-bottom: 100px;
 }
 
-.cs-call-wrap .cs-call-text a .custom-btn {
+.section-wrap .cs-call-wrap .cs-call-text a .custom-btn {
   width: 230px;
   height: 50px;
   color: #0F70A3;
@@ -469,13 +477,13 @@ span {
   outline: none;
 }
 
-.cs-call-wrap .cs-call-text a .btn-15 {
+.section-wrap .cs-call-wrap .cs-call-text a .btn-15 {
   background: #fff;
   border: 1px solid #0F70A3;
   z-index: 1;
 }
 
-.cs-call-wrap .cs-call-text a .btn-15:after {
+.section-wrap .cs-call-wrap .cs-call-text a .btn-15:after {
   position: absolute;
   content: "";
   width: 0;
@@ -488,15 +496,15 @@ span {
   transition: all 0.3s ease;
 }
 
-.cs-call-wrap .cs-call-text a .btn-15:hover {
+.section-wrap .cs-call-wrap .cs-call-text a .btn-15:hover {
   color: #fff;
 }
 
-.cs-call-wrap .cs-call-text a .btn-15:hover:after {
+.section-wrap .cs-call-wrap .cs-call-text a .btn-15:hover:after {
   left: 0;
   width: 100%;
 }
 
-.cs-call-wrap .cs-call-text a .btn-15:active {
+.section-wrap .cs-call-wrap .cs-call-text a .btn-15:active {
   top: 2px;
 }

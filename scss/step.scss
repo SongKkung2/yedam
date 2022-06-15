@@ -31,380 +31,387 @@ span {
     display: none;
 }
 
+.section-wrap {
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 0;
 
-.hero-wrap {
-    position: relative;
-    
-    .hero-text {
-        color: $base-font-color;
-        position: absolute;
-        top: 45%;
-        left: 45%;
-        font-size: 36px;
-        text-shadow: 0px 0px 5px black;
+    .hero-wrap {
+        position: relative;
+        
+        .hero-text {
+            color: $base-font-color;
+            position: absolute;
+            top: 45%;
+            left: 45%;
+            font-size: 36px;
+            text-shadow: 0px 0px 5px black;
+        }
+        
+        .hero {
+            background: url(../images/service/service-hero.png) no-repeat center/cover;
+            width: 100%;
+            height: 450px;
+        }
+        
     }
-    
-    .hero {
-        background: url(../images/sujin/service/service-hero.png) no-repeat center/cover;
+    .service-tab-wrap{
         width: 100%;
-        height: 450px;
-    }
-    
-}
-.service-tab-wrap{
-    width: 100%;
-    border-top: 1px solid $point-color-blue;
-    border-bottom: 1px solid $point-color-blue;
-
-    .service-tab {
-        max-width: 480px;
-        margin: 0 auto;
-        height: 100px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 22px;
-        color: $point-color-blue;
-    
-    }
-}
-
-.service-step-wrap {
-    max-width: $limit;
-    margin: 0 auto;
-    color: $point-color-blue;
-    position: relative;
-    overflow: hidden;
-
-    .centerline{
-        position: absolute;
-        top: 0;
-        left: 600px;
-        width: 1px;
-        height: 2000px;
-        background: $point-color-blue;
-    }
-    .service-step1{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 100px 50px 50px 50px;
-
-        .step1 {
-            position: relative;
-            width: 550px;
-            
-            h5 {
-                width: 100%;
-                position: absolute;
-                top: -50px;
-                right: 0;
-                font-size: 26px;
-                border-bottom: 1px solid $point-color-blue;
-            }
-            li {
-                font-size: 24px;
-                line-height: 40px;
-            }
-        }
-        img {
-            width: 460px;
-            height: 300px;
-        }
-    }
-    .service-step2{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px 50px;
-
-        img {
-            width: 460px;
-            height: 300px;
-        }
-        .step2{
-            position: relative;
-            width: 550px;
-
-            h5 {
-                width: 100%;
-                position: absolute;
-                top: -50px;
-                left: 0;
-                font-size: 26px;
-                text-align: right;
-                border-bottom: 1px solid $point-color-blue;
-            }
-            li {
-                text-align: right;
-                font-size: 24px;
-                line-height: 40px;
-            }
-        }
-    }
-    .service-step3{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px 50px;
-
-        .step3 {
-            position: relative;
-            width: 550px;
-
-            h5 {
-                width: 100%;
-                position: absolute;
-                top: -50px;
-                right: 0;
-                font-size: 26px;
-                border-bottom: 1px solid $point-color-blue;
-            }
-
-            li {
-                font-size: 24px;
-                line-height: 40px;
-            }
-        }
-        img {
-            width: 460px;
-            height: 300px;
-        }
-    }
-    .service-step4{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px 50px 100px 50px;
-
-        img {
-            width: 460px;
-            height: 300px;
-        }
-        .step4 {
-            position: relative;
-            width: 550px;
-
-            h5 {
-                width: 100%;
-                position: absolute;
-                top: -50px;
-                left: 0;
-                font-size: 26px;
-                text-align: right;
-                border-bottom: 1px solid $point-color-blue;
-            }
-            li {
-                font-size: 24px;
-                text-align: right;
-                line-height: 40px;
-            }
-        }
-    }
-}
-.guide-title {
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
-    border-top: 1px solid $point-color-blue;
-    border-bottom: 1px solid $point-color-blue;
-    text-align: center;
-    font-size: 28px;
-    color: $point-color-blue;
-}
-.guide-wrap {
-    max-width: $limit;
-    margin: 0 auto;
-    height: 900px;
-    overflow: hidden;
-    border-left: 1px solid $point-color-blue;
-    border-right: 1px solid $point-color-blue;
-
-    .guide-icon-wrap {
-        display: flex;
-        justify-content: space-around;
-        color: $point-color-blue;
-        border-bottom: 1px solid $point-color-blue;
-        padding: 50px 0;
-
-        .guide-icon1{
-            flex: 1;
-            text-align: center;
-
-            img {
-                width: 150px;
-                height: 150px;
-            }
-            p{
-                font-size: $base-font-size;
-                padding-top: 30px;
-            }
-            
-        }
-        .guide-icon2{
-            flex: 1;
-            text-align: center;
-            img {
-                width: 150px;
-                height: 150px;
-            }
-            p{
-                font-size: $base-font-size;
-                padding-top: 30px;
-            }
-        }
-        .guide-icon3{
-            flex: 1;
-            text-align: center;
-            img {
-                width: 150px;
-                height: 150px;
-            }
-            p{
-                font-size: $base-font-size;
-                padding-top: 30px;
-            }
-        }
-        .guide-icon4{
-            flex: 1;
-            text-align: center;
-            img {
-                width: 150px;
-                height: 150px;
-            }
-            p{
-                font-size: $base-font-size;
-                padding-top: 30px;
-            }
-        }
-    }
-    .guide-text {
-        max-width: $limit;
-        margin: 50px auto;
-        font-size: 22px;
-        line-height: 80px;
-        color: $point-color-blue;
-        padding-left: 100px;
-    }
-}
-.charge-wrap {
-    color: $point-color-blue;
-    
-    h4 {
-        font-size: 28px;
-        color: $point-color-blue;
-        text-align: center;
         border-top: 1px solid $point-color-blue;
         border-bottom: 1px solid $point-color-blue;
-        height: 100px;
-        line-height: 100px;
+    
+        .service-tab {
+            max-width: 480px;
+            margin: 0 auto;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 22px;
+            color: $point-color-blue;
+        
+        }
     }
-    .charge{
+    
+    .service-step-wrap {
         max-width: $limit;
         margin: 0 auto;
+        color: $point-color-blue;
+        position: relative;
+        overflow: hidden;
+    
+        .centerline{
+            position: absolute;
+            top: 0;
+            left: 600px;
+            width: 1px;
+            height: 2000px;
+            background: $point-color-blue;
+        }
+        .service-step1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 100px 50px 50px 50px;
+    
+            .step1 {
+                position: relative;
+                width: 550px;
+                
+                h5 {
+                    width: 100%;
+                    position: absolute;
+                    top: -50px;
+                    right: 0;
+                    font-size: 26px;
+                    border-bottom: 1px solid $point-color-blue;
+                }
+                li {
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+            }
+            img {
+                width: 460px;
+                height: 300px;
+            }
+        }
+        .service-step2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 50px;
+    
+            img {
+                width: 460px;
+                height: 300px;
+            }
+            .step2{
+                position: relative;
+                width: 550px;
+    
+                h5 {
+                    width: 100%;
+                    position: absolute;
+                    top: -50px;
+                    left: 0;
+                    font-size: 26px;
+                    text-align: right;
+                    border-bottom: 1px solid $point-color-blue;
+                }
+                li {
+                    text-align: right;
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+            }
+        }
+        .service-step3{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 50px;
+    
+            .step3 {
+                position: relative;
+                width: 550px;
+    
+                h5 {
+                    width: 100%;
+                    position: absolute;
+                    top: -50px;
+                    right: 0;
+                    font-size: 26px;
+                    border-bottom: 1px solid $point-color-blue;
+                }
+    
+                li {
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+            }
+            img {
+                width: 460px;
+                height: 300px;
+            }
+        }
+        .service-step4{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 50px 100px 50px;
+    
+            img {
+                width: 460px;
+                height: 300px;
+            }
+            .step4 {
+                position: relative;
+                width: 550px;
+    
+                h5 {
+                    width: 100%;
+                    position: absolute;
+                    top: -50px;
+                    left: 0;
+                    font-size: 26px;
+                    text-align: right;
+                    border-bottom: 1px solid $point-color-blue;
+                }
+                li {
+                    font-size: 24px;
+                    text-align: right;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+    .guide-title {
+        width: 100%;
+        height: 100px;
+        line-height: 100px;
+        border-top: 1px solid $point-color-blue;
+        border-bottom: 1px solid $point-color-blue;
+        text-align: center;
+        font-size: 28px;
+        color: $point-color-blue;
+    }
+    .guide-wrap {
+        max-width: $limit;
+        margin: 0 auto;
+        height: 900px;
+        overflow: hidden;
+        border-left: 1px solid $point-color-blue;
+        border-right: 1px solid $point-color-blue;
+    
+        .guide-icon-wrap {
+            display: flex;
+            justify-content: space-around;
+            color: $point-color-blue;
+            border-bottom: 1px solid $point-color-blue;
+            padding: 50px 0;
+    
+            .guide-icon1{
+                flex: 1;
+                text-align: center;
+    
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+                p{
+                    font-size: $base-font-size;
+                    padding-top: 30px;
+                }
+                
+            }
+            .guide-icon2{
+                flex: 1;
+                text-align: center;
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+                p{
+                    font-size: $base-font-size;
+                    padding-top: 30px;
+                }
+            }
+            .guide-icon3{
+                flex: 1;
+                text-align: center;
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+                p{
+                    font-size: $base-font-size;
+                    padding-top: 30px;
+                }
+            }
+            .guide-icon4{
+                flex: 1;
+                text-align: center;
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+                p{
+                    font-size: $base-font-size;
+                    padding-top: 30px;
+                }
+            }
+        }
+        .guide-text {
+            max-width: $limit;
+            margin: 50px auto;
+            font-size: 22px;
+            line-height: 80px;
+            color: $point-color-blue;
+            padding-left: 100px;
+        }
+    }
+    .charge-wrap {
+        color: $point-color-blue;
+        
+        h4 {
+            font-size: 28px;
+            color: $point-color-blue;
+            text-align: center;
+            border-top: 1px solid $point-color-blue;
+            border-bottom: 1px solid $point-color-blue;
+            height: 100px;
+            line-height: 100px;
+        }
+        .charge{
+            max-width: $limit;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            column-gap: 100px;
+            border-bottom: 1px solid $point-color-blue;
+            border-left: 1px solid $point-color-blue;
+            border-right: 1px solid $point-color-blue;
+            
+            .one {
+                display: flex;
+                justify-content: center;
+                column-gap: 20px;
+                align-items: center;
+                border-right: 1px solid $point-color-blue;
+                padding: 30px 100px 0 0;
+                
+                img {
+                    width: 160px;
+                    height: 180px;
+                }
+            }
+            .group {
+                display: flex;
+                justify-content: center;
+                column-gap: 20px;
+                align-items: center;
+                padding: 30px 0;
+    
+                img {
+                    width: 160px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+    .cs-call-wrap {
+        max-width: $limit;
+        margin: 0 auto;
+        padding: 50px 0;
         display: flex;
         justify-content: center;
-        column-gap: 100px;
-        border-bottom: 1px solid $point-color-blue;
+        column-gap: 50px;
+        align-items: center;
         border-left: 1px solid $point-color-blue;
         border-right: 1px solid $point-color-blue;
         
-        .one {
-            display: flex;
-            justify-content: center;
-            column-gap: 20px;
-            align-items: center;
-            border-right: 1px solid $point-color-blue;
-            padding: 30px 100px 0 0;
-            
-            img {
-                width: 160px;
-                height: 180px;
-            }
+        img {
+            width: 180px;
+            height: 180px;
         }
-        .group {
-            display: flex;
-            justify-content: center;
-            column-gap: 20px;
-            align-items: center;
-            padding: 30px 0;
-
-            img {
-                width: 160px;
-                height: 180px;
-            }
-        }
-    }
-}
-.cs-call-wrap {
-    max-width: $limit;
-    margin: 0 auto;
-    padding: 50px 0;
-    display: flex;
-    justify-content: center;
-    column-gap: 50px;
-    align-items: center;
-    border-left: 1px solid $point-color-blue;
-    border-right: 1px solid $point-color-blue;
+        .cs-call-text {
+            text-align: center;
+            color: $point-color-blue;
     
-    img {
-        width: 180px;
-        height: 180px;
-    }
-    .cs-call-text {
-        text-align: center;
-        color: $point-color-blue;
-
-        p{
-            font-size: 26px;
-            line-height: 40px;
-            margin-bottom: 30px;
-        }
-        a {
-            margin-bottom: 100px;
-            
-            .custom-btn {
-                width: 230px;
-                height: 50px;
-                color: #0F70A3;
-                padding: 10px 25px;
-                font-weight: 600;
-                font-size: 22px;
-                line-height: 27px;
-                background: transparent;
-                cursor: pointer;
-                transition: all 0.3s ease;
-                position: relative;
-                display: inline-block;
-                border: 1px solid #0F70A3;
-                outline: none;
+            p{
+                font-size: 26px;
+                line-height: 40px;
+                margin-bottom: 30px;
             }
-        
-            .btn-15 {
-                background: #fff;
-                border: 1px solid #0F70A3;
-                z-index: 1;
-              }
-            .btn-15:after {
-                position: absolute;
-                content: "";
-                width: 0;
-                height: 100%;
-                top: 0;
-                right: 0;
-                z-index: -1;
-                background-color: #0F70A3;
-                transition: all 0.3s ease;
-              }
-            .btn-15:hover {
-                color: #fff;
-              }
-            .btn-15:hover:after {
-                left: 0;
-                width: 100%;
-              }
-            .btn-15:active {
-                top: 2px;
+            a {
+                margin-bottom: 100px;
+                
+                .custom-btn {
+                    width: 230px;
+                    height: 50px;
+                    color: #0F70A3;
+                    padding: 10px 25px;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 27px;
+                    background: transparent;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    position: relative;
+                    display: inline-block;
+                    border: 1px solid #0F70A3;
+                    outline: none;
+                }
+            
+                .btn-15 {
+                    background: #fff;
+                    border: 1px solid #0F70A3;
+                    z-index: 1;
+                  }
+                .btn-15:after {
+                    position: absolute;
+                    content: "";
+                    width: 0;
+                    height: 100%;
+                    top: 0;
+                    right: 0;
+                    z-index: -1;
+                    background-color: #0F70A3;
+                    transition: all 0.3s ease;
+                  }
+                .btn-15:hover {
+                    color: #fff;
+                  }
+                .btn-15:hover:after {
+                    left: 0;
+                    width: 100%;
+                  }
+                .btn-15:active {
+                    top: 2px;
+                }
             }
         }
     }
