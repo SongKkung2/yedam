@@ -87,5 +87,40 @@ function animatescroll(){
 }
 
 
+// function animatescroll(){
+//     $(window).scroll(function () { 
+//         var scrollV = $(document).scrollTop(); 
+//         // console.log(scrollV);
+//         let offText = $('.text-wrap').offset().top;
+//         let offCourse = $('.course-contents li').offset().top;
+//         // console.log(off);
+    
+//         let valueText = scrollV - offText
+//         let valueCourse = scrollV - offCourse
+//         console.log(valueCourse);
+    
+//         if(valueText > 1300){
+//             $('.text-wrap').addClass('animate__animated')
+//             $('.text-wrap').removeClass('P-none')
+//         }
+//         if(valueCourse > 1700){
+//             // $('.course-contents li').addClass('animate__animated')
+//             // $('.course-contents li').removeClass('P-none')
+//             $('.course-contents li').each(function(index){
+//                 $(this).delay(100000).addClass('animate__animated')
+//                 $(this).delay(100000).removeClass('P-none')
+//             });
+//         }
+//     });
+// }
 
+// $(this)
+//       .delay(index*500)
+//       .animate({
+//         left: '300'
+//     }, 'slow')
+//       .delay((index+5)*500)
+//       .animate({
+//         left: '0'
+//     }, 'slow')
 
