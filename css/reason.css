@@ -23,30 +23,38 @@ span {
   display: none;
 }
 
-.hero-wrap {
+.section-wrap {
+  font-family: 'Noto Sans KR', sans-serif;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  left: 0;
+}
+
+.section-wrap .hero-wrap {
   position: relative;
 }
 
-.hero-wrap .animate__fadeInUp {
+.section-wrap .hero-wrap .animate__fadeInUp {
   position: absolute;
   top: 35%;
   left: 35%;
   width: 450px;
 }
 
-.hero-wrap .hero {
-  background: url(../images/sujin/dazosa/dazosa-hero.png) no-repeat center/cover;
+.section-wrap .hero-wrap .hero {
+  background: url(../images/dazosa/dazosa-hero.png) no-repeat center/cover;
   width: 100%;
   height: 650px;
 }
 
-.dazosa-tab-wrap {
+.section-wrap .dazosa-tab-wrap {
   width: 100%;
   border-top: 1px solid #0F70A3;
   border-bottom: 1px solid #0F70A3;
 }
 
-.dazosa-tab-wrap .dazosa-tab {
+.section-wrap .dazosa-tab-wrap .dazosa-tab {
   max-width: 480px;
   margin: 0 auto;
   height: 100px;
@@ -62,7 +70,7 @@ span {
   color: #0F70A3;
 }
 
-.why {
+.section-wrap .why {
   max-width: 1200px;
   margin: 0 auto;
   height: 450px;
@@ -79,23 +87,23 @@ span {
   position: relative;
 }
 
-.why .line {
+.section-wrap .why .line {
   position: absolute;
   top: -10px;
   left: 0;
 }
 
-.why .line img {
+.section-wrap .why .line img {
   width: 200px;
   height: 500px;
 }
 
-.why .why-text {
+.section-wrap .why .why-text {
   width: 800px;
   height: 450px;
 }
 
-.why .why-text h5 {
+.section-wrap .why .why-text h5 {
   text-align: center;
   height: 60px;
   font-size: 26px;
@@ -103,31 +111,31 @@ span {
   margin: 50px 0;
 }
 
-.why .why-text p {
+.section-wrap .why .why-text p {
   display: block;
   line-height: 50px;
   font-size: 24px;
   color: #0F70A3;
 }
 
-.why .why-text .animate__fadeInUp {
+.section-wrap .why .why-text .animate__fadeInUp {
   margin-bottom: -700px;
 }
 
-.needs-wrap {
+.section-wrap .needs-wrap {
   margin: 0 auto;
   color: #0F70A3;
   border-top: 1px solid #0F70A3;
   border-bottom: 1px solid #0F70A3;
 }
 
-.needs-wrap h4 {
+.section-wrap .needs-wrap h4 {
   font-size: 26px;
   text-align: center;
   margin: 30px 0 40px 0;
 }
 
-.needs-wrap .needs1 {
+.section-wrap .needs-wrap .needs1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,7 +147,7 @@ span {
   margin-bottom: 35px;
 }
 
-.needs-wrap .needs1 .reason1 {
+.section-wrap .needs-wrap .needs1 .reason1 {
   width: 450px;
   height: 225px;
   border: 1px solid #0F70A3;
@@ -148,13 +156,13 @@ span {
   border-radius: 30px;
 }
 
-.needs-wrap .needs1 .reason1 img {
+.section-wrap .needs-wrap .needs1 .reason1 img {
   width: 150px;
   height: 150px;
   margin: 20px 0 30px 0;
 }
 
-.needs-wrap .needs1 .reason2 {
+.section-wrap .needs-wrap .needs1 .reason2 {
   width: 450px;
   height: 225px;
   border: 1px solid #0F70A3;
@@ -163,13 +171,13 @@ span {
   border-radius: 30px;
 }
 
-.needs-wrap .needs1 .reason2 img {
+.section-wrap .needs-wrap .needs1 .reason2 img {
   width: 150px;
   height: 150px;
   margin: 20px 0 30px 0;
 }
 
-.needs-wrap .needs2 {
+.section-wrap .needs-wrap .needs2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,7 +188,7 @@ span {
           column-gap: 35px;
 }
 
-.needs-wrap .needs2 .reason3 {
+.section-wrap .needs-wrap .needs2 .reason3 {
   width: 450px;
   height: 225px;
   border: 1px solid #0F70A3;
@@ -189,13 +197,13 @@ span {
   border-radius: 30px;
 }
 
-.needs-wrap .needs2 .reason3 img {
+.section-wrap .needs-wrap .needs2 .reason3 img {
   width: 150px;
   height: 150px;
   margin: 20px 0 30px 0;
 }
 
-.needs-wrap .needs2 .reason4 {
+.section-wrap .needs-wrap .needs2 .reason4 {
   width: 450px;
   height: 225px;
   border: 1px solid #0F70A3;
@@ -204,19 +212,19 @@ span {
   border-radius: 30px;
 }
 
-.needs-wrap .needs2 .reason4 img {
+.section-wrap .needs-wrap .needs2 .reason4 img {
   width: 150px;
   height: 150px;
   margin: 20px 0 30px 0;
 }
 
-.needs-wrap .reason-text {
+.section-wrap .needs-wrap .reason-text {
   max-width: 1000px;
   margin: 50px auto;
   line-height: 30px;
 }
 
-.work {
+.section-wrap .work {
   color: #0F70A3;
   max-width: 1200px;
   margin: 0 auto;
@@ -231,24 +239,24 @@ span {
   position: relative;
 }
 
-.work .worklist-wrap h4 {
+.section-wrap .work .worklist-wrap h4 {
   font-size: 26px;
   text-align: center;
   margin: 30px 0 40px 0;
 }
 
-.work .worklist-wrap .worklist {
+.section-wrap .work .worklist-wrap .worklist {
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
-.work .worklist-wrap .worklist li {
+.section-wrap .work .worklist-wrap .worklist li {
   list-style: disc;
   font-size: 24px;
   line-height: 50px;
 }
 
-.work .line2 {
+.section-wrap .work .line2 {
   padding-left: 100px;
   position: absolute;
   width: 200px;
@@ -258,64 +266,67 @@ span {
   top: -3px;
 }
 
-.work .line2 img {
+.section-wrap .work .line2 img {
   height: 100%;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-  .hero-wrap {
+  .section-wrap {
+    top: 50px;
+  }
+  .section-wrap .hero-wrap {
     max-width: 100%;
     margin: 0 auto;
     position: relative;
   }
-  .hero-wrap .animate__fadeInUp {
+  .section-wrap .hero-wrap .animate__fadeInUp {
     position: absolute;
     top: 25%;
     left: 25%;
     width: 200px;
   }
-  .hero-wrap .hero {
+  .section-wrap .hero-wrap .hero {
     height: 200px;
   }
-  .dazosa-tab-wrap .dazosa-tab {
+  .section-wrap .dazosa-tab-wrap .dazosa-tab {
     max-width: 100%;
     margin: 0 auto;
     height: 50px;
   }
-  .dazosa-tab-wrap .dazosa-tab li {
+  .section-wrap .dazosa-tab-wrap .dazosa-tab li {
     font-size: 18px;
   }
-  .why {
+  .section-wrap .why {
     height: 300px;
   }
-  .why .line {
+  .section-wrap .why .line {
     display: none;
   }
-  .why .why-text {
+  .section-wrap .why .why-text {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
     height: 300px;
   }
-  .why .why-text h5 {
+  .section-wrap .why .why-text h5 {
     margin: 20px 0;
     font-size: 18px;
   }
-  .why .why-text p {
+  .section-wrap .why .why-text p {
     font-size: 12px;
     line-height: 30px;
     margin: 0 0 30px 0;
   }
-  .why .why-text .animate__fadeInUp {
+  .section-wrap .why .why-text .animate__fadeInUp {
     margin-bottom: -30px;
   }
-  .needs-wrap {
+  .section-wrap .needs-wrap {
     padding: 0 10px;
   }
-  .needs-wrap h4 {
+  .section-wrap .needs-wrap h4 {
     font-size: 18px;
   }
-  .needs-wrap .needs1 {
+  .section-wrap .needs-wrap .needs1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -325,7 +336,7 @@ span {
     -webkit-column-gap: 10px;
             column-gap: 10px;
   }
-  .needs-wrap .needs1 .reason1 {
+  .section-wrap .needs-wrap .needs1 .reason1 {
     width: 150px;
     height: 100px;
     border: 1px solid #0F70A3;
@@ -333,15 +344,15 @@ span {
     border-radius: 20px;
     padding: 10px 10px;
   }
-  .needs-wrap .needs1 .reason1 img {
+  .section-wrap .needs-wrap .needs1 .reason1 img {
     width: 50px;
     height: 50px;
     margin: 10px 0;
   }
-  .needs-wrap .needs1 .reason1 p {
+  .section-wrap .needs-wrap .needs1 .reason1 p {
     font-size: 8px;
   }
-  .needs-wrap .needs1 .reason2 {
+  .section-wrap .needs-wrap .needs1 .reason2 {
     width: 150px;
     height: 100px;
     border: 1px solid #0F70A3;
@@ -349,15 +360,15 @@ span {
     border-radius: 20px;
     padding: 10px 10px;
   }
-  .needs-wrap .needs1 .reason2 img {
+  .section-wrap .needs-wrap .needs1 .reason2 img {
     width: 50px;
     height: 50px;
     margin: 10px 0;
   }
-  .needs-wrap .needs1 .reason2 p {
+  .section-wrap .needs-wrap .needs1 .reason2 p {
     font-size: 8px;
   }
-  .needs-wrap .needs2 {
+  .section-wrap .needs-wrap .needs2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -367,7 +378,7 @@ span {
     -webkit-column-gap: 10px;
             column-gap: 10px;
   }
-  .needs-wrap .needs2 .reason3 {
+  .section-wrap .needs-wrap .needs2 .reason3 {
     width: 150px;
     height: 100px;
     border: 1px solid #0F70A3;
@@ -375,15 +386,15 @@ span {
     border-radius: 20px;
     padding: 10px 10px;
   }
-  .needs-wrap .needs2 .reason3 img {
+  .section-wrap .needs-wrap .needs2 .reason3 img {
     width: 50px;
     height: 50px;
     margin: 10px 0;
   }
-  .needs-wrap .needs2 .reason3 p {
+  .section-wrap .needs-wrap .needs2 .reason3 p {
     font-size: 8px;
   }
-  .needs-wrap .needs2 .reason4 {
+  .section-wrap .needs-wrap .needs2 .reason4 {
     width: 150px;
     height: 100px;
     border: 1px solid #0F70A3;
@@ -391,33 +402,33 @@ span {
     border-radius: 20px;
     padding: 10px 10px;
   }
-  .needs-wrap .needs2 .reason4 img {
+  .section-wrap .needs-wrap .needs2 .reason4 img {
     width: 50px;
     height: 50px;
     margin: 10px 0;
   }
-  .needs-wrap .needs2 .reason4 p {
+  .section-wrap .needs-wrap .needs2 .reason4 p {
     font-size: 8px;
   }
-  .needs-wrap .reason-text {
+  .section-wrap .needs-wrap .reason-text {
     max-width: 100%;
     line-height: 20px;
     font-size: 12px;
   }
-  .work {
+  .section-wrap .work {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
     height: 300px;
   }
-  .work .worklist-wrap h4 {
+  .section-wrap .work .worklist-wrap h4 {
     font-size: 18px;
   }
-  .work .worklist-wrap .worklist li {
+  .section-wrap .work .worklist-wrap .worklist li {
     font-size: 12px;
     line-height: 30px;
   }
-  .work .line2 {
+  .section-wrap .work .line2 {
     display: none;
   }
 }
