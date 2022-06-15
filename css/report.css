@@ -1,0 +1,24 @@
+body {
+  font: 18px noto sans serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a, a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+span {
+  font-weight: bold;
+}
+
+.d-none {
+  display: none;
+}

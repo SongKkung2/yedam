@@ -1,0 +1,421 @@
+body {
+  font: 18px noto sans serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a, a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+span {
+  font-weight: bold;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.hero-wrap {
+  position: relative;
+}
+
+.hero-wrap .animate__fadeInUp {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  width: 450px;
+}
+
+.hero-wrap .hero {
+  background: url(../images/sujin/dazosa/dazosa-hero.png) no-repeat center/cover;
+  width: 100%;
+  height: 650px;
+}
+
+.dazosa-tab-wrap {
+  width: 100%;
+  border-top: 1px solid #0F70A3;
+  border-bottom: 1px solid #0F70A3;
+}
+
+.dazosa-tab-wrap .dazosa-tab {
+  max-width: 480px;
+  margin: 0 auto;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 22px;
+  color: #0F70A3;
+}
+
+.tool-wrap {
+  border-bottom: 1px solid #0F70A3;
+}
+
+.tool-wrap h4 {
+  text-align: center;
+  border-top: 1px solid #0F70A3;
+  height: 60px;
+  line-height: 60px;
+  font-size: 26px;
+  color: #0F70A3;
+  padding: 20px 0;
+}
+
+.tool-wrap .tool-wrap-top {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.tool-wrap .tool-wrap-top .tool1 {
+  text-align: center;
+}
+
+.tool-wrap .tool-wrap-top .tool1 img {
+  width: 250px;
+  height: 200px;
+}
+
+.tool-wrap .tool-wrap-top .tool2 {
+  text-align: center;
+}
+
+.tool-wrap .tool-wrap-top .tool2 img {
+  width: 250px;
+  height: 200px;
+}
+
+.tool-wrap .tool-wrap-top .tool3 {
+  text-align: center;
+}
+
+.tool-wrap .tool-wrap-top .tool3 img {
+  width: 250px;
+  height: 200px;
+}
+
+.tool-wrap .tool-wrap-top .tool4 {
+  text-align: center;
+}
+
+.tool-wrap .tool-wrap-top .tool4 img {
+  width: 250px;
+  height: 200px;
+}
+
+.tool-wrap .tool-wrap-bottom {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.tool-wrap .tool-wrap-bottom .tool5 {
+  text-align: center;
+}
+
+.tool-wrap .tool-wrap-bottom .tool5 img {
+  width: 250px;
+  height: 200px;
+}
+
+.tool-wrap .tool-wrap-bottom .tool6 {
+  text-align: center;
+}
+
+.tool-wrap .tool-wrap-bottom .tool6 img {
+  width: 250px;
+  height: 200px;
+}
+
+.tool-wrap .tool-wrap-bottom .tool7 {
+  text-align: center;
+}
+
+.tool-wrap .tool-wrap-bottom .tool7 img {
+  width: 250px;
+  height: 200px;
+}
+
+.tool-wrap .tool-wrap-bottom .tool8 {
+  text-align: center;
+}
+
+.tool-wrap .tool-wrap-bottom .tool8 img {
+  width: 250px;
+  height: 200px;
+}
+
+.tool-tabwrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-left: 1px solid #0F70A3;
+  border-right: 1px solid #0F70A3;
+  /* .tool-tab2 {
+        display: none;
+        justify-content: center;
+        column-gap: 100px;
+        align-items: center;
+        padding: 100px 0;
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+        .tool-text2 {
+            width: 600px;
+            font-size: $base-font-size;
+            position: relative;
+
+            h5 {
+                font-size: 32px;
+                font-weight: bold;
+            }
+            p {
+                font-size: 24px;
+                margin: 20px 0;
+                line-height: 40px;
+            }
+            button {
+                width: 200px;
+                height: 60px;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                border: 1px solid $point-color-blue;
+                background: $base-font-color;
+                font-size: 24px;
+            }
+        }
+    }
+    .tool-tab3 {
+        display: none;
+        justify-content: center;
+        column-gap: 100px;
+        align-items: center;
+        padding: 100px 0;
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+        .tool-text3 {
+            width: 600px;
+            font-size: $base-font-size;
+            position: relative;
+
+            h5 {
+                font-size: 32px;
+                font-weight: bold;
+            }
+            p {
+                font-size: 24px;
+                margin: 20px 0;
+                line-height: 40px;
+            }
+            button {
+                width: 200px;
+                height: 60px;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                border: 1px solid $point-color-blue;
+                background: $base-font-color;
+                font-size: 24px;
+            }
+        }
+    }
+    .tool-tab4 {
+        display: none;
+        justify-content: center;
+        column-gap: 100px;
+        align-items: center;
+        padding: 100px 0;
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+        .tool-text4 {
+            width: 600px;
+            font-size: $base-font-size;
+            position: relative;
+
+            h5 {
+                font-size: 32px;
+                font-weight: bold;
+            }
+            p {
+                font-size: 24px;
+                margin: 20px 0;
+                line-height: 40px;
+            }
+            button {
+                width: 200px;
+                height: 60px;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                border: 1px solid $point-color-blue;
+                background: $base-font-color;
+                font-size: 24px;
+            }
+        }
+    } */
+}
+
+.tool-tabwrap .tool-tab li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 100px;
+          column-gap: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0;
+  height: 450px;
+}
+
+.tool-tabwrap .tool-tab li img {
+  width: 300px;
+  height: 300px;
+}
+
+.tool-tabwrap .tool-tab li .tool-text {
+  width: 600px;
+  font-size: 18px;
+  position: relative;
+  /* button {
+                    width: 200px;
+                    height: 60px;
+                    position: absolute;
+                    top: 100%;
+                    right: 0;
+                    border: 1px solid $point-color-blue;
+                    background: $base-font-color;
+                    font-size: 24px;
+                } */
+}
+
+.tool-tabwrap .tool-tab li .tool-text h5 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.tool-tabwrap .tool-tab li .tool-text p {
+  font-size: 24px;
+  margin: 20px 0;
+  line-height: 40px;
+}
+
+.tool-tabwrap .tool-tab li .tool-text a {
+  margin-bottom: 100px;
+}
+
+.tool-tabwrap .tool-tab li .tool-text a .custom-btn {
+  width: 230px;
+  height: 50px;
+  color: #0F70A3;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #0F70A3;
+  outline: none;
+}
+
+.tool-tabwrap .tool-tab li .tool-text a .btn-15 {
+  background: #fff;
+  border: 1px solid #0F70A3;
+  z-index: 1;
+}
+
+.tool-tabwrap .tool-tab li .tool-text a .btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #0F70A3;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.tool-tabwrap .tool-tab li .tool-text a .btn-15:hover {
+  color: #fff;
+}
+
+.tool-tabwrap .tool-tab li .tool-text a .btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.tool-tabwrap .tool-tab li .tool-text a .btn-15:active {
+  top: 2px;
+}
+
+.tool-tabwrap .tool-tab li .d-none {
+  display: none;
+}
+
+.tool-tabwrap .tool-tabNav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  border-top: 1px solid #0F70A3;
+  padding: 50px 0;
+}
+
+.tool-tabwrap .tool-tabNav .tab-button img {
+  width: 220px;
+  height: 240px;
+  border: 1px solid #0F70A3;
+}
+
+.tool-tabwrap .tool-tabNav .active {
+  width: 220px;
+  height: 240px;
+  border: 3px solid #0F70A3;
+}

@@ -6,7 +6,7 @@ $(document).ready(function() {
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
             if( bottom_of_window > bottom_of_element ){
-                $(this).animate({'margin-bottom':'0px'},800);
+                $(this).animate({'margin-bottom':'0px'},1000);
             }
             
         }); 

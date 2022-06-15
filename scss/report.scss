@@ -1,0 +1,32 @@
+$base-color-dark: #222;
+$point-color-blue: #0F70A3;
+$base-font-color : #fff;
+$base-font-size: 18px;
+$base-font-weight: normal;
+$upper: uppercase;
+$cap : capitalize;
+$limit: 1200px;
+
+body {
+    font: $base-font-size noto sans serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+.d-none {
+    display: none;
+}
