@@ -255,7 +255,6 @@
 @media only screen and (max-width: 425px) {
   .section-wrap {
     top: 50px;
-    left: 0;
   }
   .hero {
     width: 100%;
@@ -302,11 +301,26 @@
   .card > li {
     width: 100px;
     height: 140px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .modal {
     width: 90px;
     height: 130px;
     border: 1px solid #fff;
+  }
+  .card > li:nth-child(3) {
+    font-size: 12px;
+  }
+  .performance > h4 {
+    display: none;
+  }
+  .m-btn {
+    margin: 20px 0;
+    color: #0F70A3;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #0F70A3;
+    text-align: center;
+    padding: 10px 20px;
   }
 }
