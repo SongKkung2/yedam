@@ -2,6 +2,7 @@ $(function(){
     fadein1();
     fadein2();
     fadein3();
+    fadein4();
 })
 
 
@@ -39,11 +40,11 @@ function fadein1(){
         let offh2 = $('.intro-text').offset().top;
 
         let valueh2 = scrollH - offh2;
-        // console.log(valueh2);
 
         if(valueh2 > -500){
             $('.intro-text > h2').fadeIn(300)
         }
+        
     })
 }
 
@@ -71,13 +72,35 @@ function fadein3(){
         let offli = $('.cards > li').offset().top;
 
         let valueli = scrollH - offli;
-        console.log(valueli);
+        // console.log(valueli2);
 
         if(valueli > 970){
             $('.cards > li').eq(0).stop().slideDown(300);
-            $('.cards > li').eq(1).stop().slideDown(400);
-            $('.cards > li').eq(2).stop().slideDown(500);
+            $('.cards > li').eq(1).stop().slideDown(500);
+            $('.cards > li').eq(2).stop().slideDown(700);
         }
         
+        
+    })
+}
+function fadein4(){
+    $('.people-text > h2').hide();
+    $('.people-text > p').hide();
+    // $('.intro-text > p').hide();
+
+
+    $(window).scroll(function(){
+        var scrollH = $(document).scrollTop();
+
+        let offh3 = $('.people-text').offset().top;
+
+        let valueh3 = scrollH - offh3;
+        console.log(valueh3);
+
+        
+        if(valueh3 > -500){
+            $('.people-text > h2').fadeIn(300)
+            $('.people-text > p').fadeIn(600)
+        }
     })
 }
