@@ -51,10 +51,7 @@ ul,li{
     color: #0F70A3;
     padding: 60px;
 }
-.midtitle{
-    border-bottom: #0F70A3 solid 1px;
-}
-.midtitle h2{
+.midtitle p:nth-child(1){
     border-bottom: #0F70A3 solid 1px;
     padding: 30px;
     font-weight: bolder;
@@ -64,6 +61,7 @@ ul,li{
     color: #0F70A3;
     margin: 0;
 }
+
 .subbtn{
     display: flex;
     justify-content: center;
@@ -87,11 +85,6 @@ ul,li{
 }
 .container{
     max-width: 1200px;
-}
-.midtitle{
-    text-align: center;
-    margin: 0 auto;
-    justify-content: center;
 }
 .mid1, .mid2, .mid3, .mid4{
     width: 700px;
@@ -129,16 +122,67 @@ ul,li{
     margin: 0 auto;
 }
 .midwrap{
+    width: 100%;
+    border-top: 1px solid #0f70a3;
+    border-bottom: 1px solid #0f70a3;
+}
+.items1{
+    max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    border-left: 1px solid #0f70a3;
+    border-right: 1px solid #0f70a3;
+    border-bottom: 1px solid #0f70a3;
 }
-.question{
-    color: #0F70A3;
-    padding: 30px;
+.items1 > li{
+    text-align: center;
+    box-sizing: border-box;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.answer{
-    color: #0F70A3;
-    font-weight: bolder;
-    padding: 30px;
+.items1 > li > h2{
+    font-size: 22px;
+    color: #0f70a3;
+}
+.items1 > li > p{
+    font-size: 16px;
+    color: #0f70a3;
+}
+.items2 > li > p{
+    font-size: 16px;
+    color: #0f70a3;
+}
+.items1 > li:first-child{
+    border-right: 1px solid #0f70a3;
+}
+.items2{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    border-left: 1px solid #0f70a3;
+    border-right: 1px solid #0f70a3;
+    /* border-bottom: 1px solid #0f70a3; */
+}
+.items2 > li{
+    text-align: center;
+    box-sizing: border-box;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.items2 > li > h2{
+    font-size: 22px;
+    color: #0f70a3;
+}
+.items2 > li:first-child{
+    border-right: 1px solid #0f70a3;
 }
 .ansdml h2{
     border-bottom: #0F70A3 solid 1px;
@@ -272,4 +316,31 @@ ul,li{
 
 .review a .btn-15:active {
   top: 2px;
+}
+.bottommenu{
+    display: flex;
+    justify-content: center;
+}
+.bottommenu > li{
+    padding: 0 80px 0 80px;
+    display: flex;
+}.pbox{
+    border: #0F70A3 1px solid;
+}
+.pbox p{
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+.bottommenu_p{
+    color:#0F70A3
+}
+.bottommenu_p p{
+    display: flex;
+    color:#0F70A3
+}
+.b_wrap > p > span{
+    color:#0F70A3
+
 }
