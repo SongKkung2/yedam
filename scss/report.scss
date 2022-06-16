@@ -38,6 +38,235 @@ span {
     top: 100px;
     left: 0;
 
+    .hero-wrap {
+        position: relative;
+        
+        .hero-text {
+            color: $base-font-color;
+            position: absolute;
+            top: 45%;
+            left: 45%;
+            font-size: 36px;
+            text-shadow: 0px 0px 5px black;
+        }
+        
+        .hero {
+            background: url(../images/service/service-hero.png) no-repeat center/cover;
+            width: 100%;
+            height: 650px;
+        }
+        
+    }
+    .service-tab-wrap{
+        width: 100%;
+        border-top: 1px solid $point-color-blue;
+        border-bottom: 1px solid $point-color-blue;
     
+        .service-tab {
+            max-width: 480px;
+            margin: 0 auto;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 22px;
+            color: $point-color-blue;
+        
+        }
+    }
+    .report-text {
+        max-width: $limit;
+        margin: 0 auto;
+        padding: 100px 0;
+        text-align: center;
+        border-left: 1px solid $point-color-blue;
+        border-right: 1px solid $point-color-blue;
+        border-bottom: 1px solid $point-color-blue;
+        
+        img{
+            width: 600px;
+            height: 400px;
+            margin-bottom: 50px;
+        }
+        p {
+            font-size: 28px;
+            color: $point-color-blue;
+            line-height: 50px;
+        }
+    }
+    .report-process{
+        max-width: $limit;
+        margin: 0 auto;
+        border-left: 1px solid $point-color-blue;
+        border-right: 1px solid $point-color-blue;
+        border-bottom: 1px solid $point-color-blue;
+        position: relative;
+        padding: 0 30px 100px 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h4 {
+            font-size: 28px;
+            text-align: center;
+            color: $point-color-blue;
+            padding: 50px 0 100px 0;
+        }
+        
+        .report-process-img{
+            width: 100%;
+            margin: 0 0 100px 0;
+        }
+        .report-process-text {
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            top: 22%;
+            right: 30px;
+        }
+        a {
+            margin-bottom: 100px;
+            
+            .custom-btn {
+                width: 230px;
+                height: 50px;
+                color: #0F70A3;
+                padding: 10px 25px;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 27px;
+                background: transparent;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                position: relative;
+                display: inline-block;
+                border: 1px solid #0F70A3;
+                outline: none;
+            }
+        
+            .btn-15 {
+                background: #fff;
+                border: 1px solid #0F70A3;
+                z-index: 1;
+              }
+            .btn-15:after {
+                position: absolute;
+                content: "";
+                width: 0;
+                height: 100%;
+                top: 0;
+                right: 0;
+                z-index: -1;
+                background-color: #0F70A3;
+                transition: all 0.3s ease;
+              }
+            .btn-15:hover {
+                color: #fff;
+              }
+            .btn-15:hover:after {
+                left: 0;
+                width: 100%;
+              }
+            .btn-15:active {
+                top: 2px;
+            }
+        }
+
+    }
+    .report-sample-wrap {
+        max-width: $limit;
+        margin: 0 auto;
+        border-left: 1px solid $point-color-blue;
+        border-right: 1px solid $point-color-blue;
+        border-bottom: 1px solid $point-color-blue;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h3 {
+            font-size: 28px;
+            color: $point-color-blue;
+            padding: 50px 0 100px 0;
+            text-align: center;
+
+        }
+        .report-sample-imgwrap {
+            display: flex;
+            justify-content: center;
+            column-gap: 50px;
+
+            img {
+                width: 350px;
+                height: 500px;
+            }
+
+        }
+        a {
+            margin: 100px 0;
+            
+            .custom-btn {
+                width: 230px;
+                height: 50px;
+                color: #0F70A3;
+                padding: 10px 25px;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 27px;
+                background: transparent;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                position: relative;
+                display: inline-block;
+                border: 1px solid #0F70A3;
+                outline: none;
+            }
+        
+            .btn-15 {
+                background: #fff;
+                border: 1px solid #0F70A3;
+                z-index: 1;
+              }
+            .btn-15:after {
+                position: absolute;
+                content: "";
+                width: 0;
+                height: 100%;
+                top: 0;
+                right: 0;
+                z-index: -1;
+                background-color: #0F70A3;
+                transition: all 0.3s ease;
+              }
+            .btn-15:hover {
+                color: #fff;
+              }
+            .btn-15:hover:after {
+                left: 0;
+                width: 100%;
+              }
+            .btn-15:active {
+                top: 2px;
+            }
+        }
+    }
+    .banner {
+        max-width: $limit;
+        margin: 0 auto;
+        position: relative;
+        height: 300px;
+        border-left: 1px solid $point-color-blue;
+        border-right: 1px solid $point-color-blue;
+
+        img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        .banner-text {
+            width: 1000px;
+            top: 0;
+            left: 10%;
+        }
+    }
 }
   

@@ -25,7 +25,7 @@ ul, ol {
 }
 
 span {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .d-none {
@@ -194,16 +194,6 @@ span {
                         margin: 20px 0;
                         line-height: 40px;
                     }
-                    /* button {
-                        width: 200px;
-                        height: 60px;
-                        position: absolute;
-                        top: 100%;
-                        right: 0;
-                        border: 1px solid $point-color-blue;
-                        background: $base-font-color;
-                        font-size: 24px;
-                    } */
                     a {
                         margin-bottom: 100px;
                         
@@ -238,9 +228,6 @@ span {
                             right: 0;
                             z-index: -1;
                             background-color: #0F70A3;
-                            //  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-                            //  7px 7px 20px 0px rgba(0,0,0,.1),
-                            //  4px 4px 5px 0px rgba(0,0,0,.1);
                             transition: all 0.3s ease;
                           }
                         .btn-15:hover {
@@ -254,9 +241,6 @@ span {
                             top: 2px;
                           }
                     }
-                }
-                .d-none{
-                    display: none;
                 }
                 
             }
@@ -283,117 +267,7 @@ span {
                 border: 3px solid $point-color-blue;
             }
         }
-        /* .tool-tab2 {
-            display: none;
-            justify-content: center;
-            column-gap: 100px;
-            align-items: center;
-            padding: 100px 0;
     
-            img {
-                width: 300px;
-                height: 300px;
-            }
-            .tool-text2 {
-                width: 600px;
-                font-size: $base-font-size;
-                position: relative;
-    
-                h5 {
-                    font-size: 32px;
-                    font-weight: bold;
-                }
-                p {
-                    font-size: 24px;
-                    margin: 20px 0;
-                    line-height: 40px;
-                }
-                button {
-                    width: 200px;
-                    height: 60px;
-                    position: absolute;
-                    top: 100%;
-                    right: 0;
-                    border: 1px solid $point-color-blue;
-                    background: $base-font-color;
-                    font-size: 24px;
-                }
-            }
-        }
-        .tool-tab3 {
-            display: none;
-            justify-content: center;
-            column-gap: 100px;
-            align-items: center;
-            padding: 100px 0;
-    
-            img {
-                width: 300px;
-                height: 300px;
-            }
-            .tool-text3 {
-                width: 600px;
-                font-size: $base-font-size;
-                position: relative;
-    
-                h5 {
-                    font-size: 32px;
-                    font-weight: bold;
-                }
-                p {
-                    font-size: 24px;
-                    margin: 20px 0;
-                    line-height: 40px;
-                }
-                button {
-                    width: 200px;
-                    height: 60px;
-                    position: absolute;
-                    top: 100%;
-                    right: 0;
-                    border: 1px solid $point-color-blue;
-                    background: $base-font-color;
-                    font-size: 24px;
-                }
-            }
-        }
-        .tool-tab4 {
-            display: none;
-            justify-content: center;
-            column-gap: 100px;
-            align-items: center;
-            padding: 100px 0;
-    
-            img {
-                width: 300px;
-                height: 300px;
-            }
-            .tool-text4 {
-                width: 600px;
-                font-size: $base-font-size;
-                position: relative;
-    
-                h5 {
-                    font-size: 32px;
-                    font-weight: bold;
-                }
-                p {
-                    font-size: 24px;
-                    margin: 20px 0;
-                    line-height: 40px;
-                }
-                button {
-                    width: 200px;
-                    height: 60px;
-                    position: absolute;
-                    top: 100%;
-                    right: 0;
-                    border: 1px solid $point-color-blue;
-                    background: $base-font-color;
-                    font-size: 24px;
-                }
-            }
-        } */
         
     }
 }

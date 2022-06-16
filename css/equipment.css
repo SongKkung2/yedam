@@ -16,7 +16,7 @@ ul, ol {
 }
 
 span {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .d-none {
@@ -182,117 +182,6 @@ span {
   margin: 0 auto;
   border-left: 1px solid #0F70A3;
   border-right: 1px solid #0F70A3;
-  /* .tool-tab2 {
-            display: none;
-            justify-content: center;
-            column-gap: 100px;
-            align-items: center;
-            padding: 100px 0;
-    
-            img {
-                width: 300px;
-                height: 300px;
-            }
-            .tool-text2 {
-                width: 600px;
-                font-size: $base-font-size;
-                position: relative;
-    
-                h5 {
-                    font-size: 32px;
-                    font-weight: bold;
-                }
-                p {
-                    font-size: 24px;
-                    margin: 20px 0;
-                    line-height: 40px;
-                }
-                button {
-                    width: 200px;
-                    height: 60px;
-                    position: absolute;
-                    top: 100%;
-                    right: 0;
-                    border: 1px solid $point-color-blue;
-                    background: $base-font-color;
-                    font-size: 24px;
-                }
-            }
-        }
-        .tool-tab3 {
-            display: none;
-            justify-content: center;
-            column-gap: 100px;
-            align-items: center;
-            padding: 100px 0;
-    
-            img {
-                width: 300px;
-                height: 300px;
-            }
-            .tool-text3 {
-                width: 600px;
-                font-size: $base-font-size;
-                position: relative;
-    
-                h5 {
-                    font-size: 32px;
-                    font-weight: bold;
-                }
-                p {
-                    font-size: 24px;
-                    margin: 20px 0;
-                    line-height: 40px;
-                }
-                button {
-                    width: 200px;
-                    height: 60px;
-                    position: absolute;
-                    top: 100%;
-                    right: 0;
-                    border: 1px solid $point-color-blue;
-                    background: $base-font-color;
-                    font-size: 24px;
-                }
-            }
-        }
-        .tool-tab4 {
-            display: none;
-            justify-content: center;
-            column-gap: 100px;
-            align-items: center;
-            padding: 100px 0;
-    
-            img {
-                width: 300px;
-                height: 300px;
-            }
-            .tool-text4 {
-                width: 600px;
-                font-size: $base-font-size;
-                position: relative;
-    
-                h5 {
-                    font-size: 32px;
-                    font-weight: bold;
-                }
-                p {
-                    font-size: 24px;
-                    margin: 20px 0;
-                    line-height: 40px;
-                }
-                button {
-                    width: 200px;
-                    height: 60px;
-                    position: absolute;
-                    top: 100%;
-                    right: 0;
-                    border: 1px solid $point-color-blue;
-                    background: $base-font-color;
-                    font-size: 24px;
-                }
-            }
-        } */
 }
 
 .section-wrap .tool-tabwrap .tool-tab li {
@@ -320,16 +209,6 @@ span {
   width: 600px;
   font-size: 18px;
   position: relative;
-  /* button {
-                        width: 200px;
-                        height: 60px;
-                        position: absolute;
-                        top: 100%;
-                        right: 0;
-                        border: 1px solid $point-color-blue;
-                        background: $base-font-color;
-                        font-size: 24px;
-                    } */
 }
 
 .section-wrap .tool-tabwrap .tool-tab li .tool-text h5 {
@@ -395,10 +274,6 @@ span {
 
 .section-wrap .tool-tabwrap .tool-tab li .tool-text a .btn-15:active {
   top: 2px;
-}
-
-.section-wrap .tool-tabwrap .tool-tab li .d-none {
-  display: none;
 }
 
 .section-wrap .tool-tabwrap .tool-tabNav {
