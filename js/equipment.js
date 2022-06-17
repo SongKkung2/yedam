@@ -9,6 +9,7 @@ function toolTab(){
             $(this).addClass("active");
             $(this).siblings().removeClass("active");
             var idx = $(this).index();
+            
             $(".tool-tab > li").eq(idx).removeClass("d-none");
             $(".tool-tab > li").eq(idx).siblings().addClass("d-none");
 

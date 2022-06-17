@@ -23,6 +23,10 @@ span {
   display: none;
 }
 
+.P-none {
+  display: none !important;
+}
+
 .section-wrap {
   font-family: 'Noto Sans KR', sans-serif;
   position: absolute;
@@ -38,7 +42,7 @@ span {
 .section-wrap .hero-wrap .animate__fadeInUp {
   position: absolute;
   top: 35%;
-  left: 35%;
+  left: 33%;
   width: 450px;
 }
 
@@ -116,10 +120,6 @@ span {
   line-height: 50px;
   font-size: 24px;
   color: #0F70A3;
-}
-
-.section-wrap .why .why-text .animate__fadeInUp {
-  margin-bottom: -700px;
 }
 
 .section-wrap .needs-wrap {
