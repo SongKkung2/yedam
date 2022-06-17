@@ -2,8 +2,7 @@ body {
   font: 18px noto sans serif;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a, a:link {
@@ -63,14 +62,9 @@ span {
   max-width: 480px;
   margin: 0 auto;
   height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   font-size: 22px;
   color: #0F70A3;
 }
@@ -106,16 +100,9 @@ span {
   border-bottom: 1px solid #0F70A3;
   position: relative;
   padding: 0 30px 50px 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section-wrap .report-process h4 {
@@ -152,7 +139,6 @@ span {
   line-height: 27px;
   background: transparent;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
@@ -175,7 +161,6 @@ span {
   right: 0;
   z-index: -1;
   background-color: #0F70A3;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -198,16 +183,9 @@ span {
   border-left: 1px solid #0F70A3;
   border-right: 1px solid #0F70A3;
   border-bottom: 1px solid #0F70A3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section-wrap .report-sample-wrap h3 {
@@ -218,14 +196,9 @@ span {
 }
 
 .section-wrap .report-sample-wrap .report-sample-imgwrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 50px;
-          column-gap: 50px;
+  justify-content: center;
+  column-gap: 50px;
 }
 
 .section-wrap .report-sample-wrap .report-sample-imgwrap li:hover .overlay1 {
@@ -244,16 +217,9 @@ span {
 }
 
 .section-wrap .report-sample-wrap .report-sample-imgwrap li .overlay1 p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   font-size: 28px;
   color: #fff;
   margin-top: 200px;
@@ -322,7 +288,6 @@ span {
   line-height: 27px;
   background: transparent;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
@@ -345,7 +310,6 @@ span {
   right: 0;
   z-index: -1;
   background-color: #0F70A3;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -441,8 +405,7 @@ span {
     margin: 0;
   }
   .section-wrap .report-process a button {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+    transform: scale(0.7);
   }
   .section-wrap .report-sample-wrap {
     max-width: 100%;
@@ -455,14 +418,13 @@ span {
   .section-wrap .report-sample-wrap .report-sample-imgwrap {
     width: 100%;
     margin: 0 auto;
-    -webkit-column-gap: 0;
-            column-gap: 0;
+    column-gap: 0;
   }
   .section-wrap .report-sample-wrap .report-sample-imgwrap li {
     text-align: center;
   }
-  .section-wrap .report-sample-wrap .report-sample-imgwrap li .overlay1 {
-    display: none;
+  .section-wrap .report-sample-wrap .report-sample-imgwrap li:hover.overlay1 {
+    display: none !important;
   }
   .section-wrap .report-sample-wrap .report-sample-imgwrap li img {
     width: 250px;
@@ -480,8 +442,7 @@ span {
     margin: 50px 0;
   }
   .section-wrap .report-sample-wrap a button {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+    transform: scale(0.7);
   }
   .section-wrap .banner {
     max-width: 100%;
@@ -495,5 +456,8 @@ span {
     width: 100%;
     left: 0;
     padding: 10px;
+  }
+  :hover.overlay1 {
+    display: none !important;
   }
 }

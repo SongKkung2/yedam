@@ -1,0 +1,63 @@
+body {
+    font: 18px noto sans serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.section-wrap {
+    font-family: 'Noto Sans KR', sans-serif;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 0;
+}
+
+.hero-wrap {
+    position: relative;
+}
+.animate__fadeInUp {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    width: 450px;
+}
+.hero {
+    background: url(../images/service/service-hero.png) no-repeat center/cover;
+    width: 100%;
+    height: 650px;
+}
+
+.service-tab-wrap{
+    width: 100%;
+    border-top: 1px solid #0F70A3;
+    border-bottom: 1px solid #0F70A3;
+
+}
+.service-tab {
+    max-width: 480px;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    color: #0F70A3;
+}

@@ -61,19 +61,3 @@ span {
     font-size: 22px;
     color: #0F70A3;
 }
-.service-tab-wrap{
-    width: 100%;
-    border-top: 1px solid #0F70A3;
-    border-bottom: 1px solid #0F70A3;
-
-}
-.service-tab {
-    max-width: 480px;
-    margin: 0 auto;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 22px;
-    color: #0F70A3;
-}

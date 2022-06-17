@@ -421,8 +421,8 @@ span {
                 column-gap: 0;
                 li {
                     text-align: center;
-                    .overlay1 {
-                        display: none;
+                    &:hover.overlay1 {
+                        display: none !important;
                     }
                     img {
                         width: 250px;
@@ -460,5 +460,8 @@ span {
                 padding: 10px;
             }
         }
+    }
+    &:hover.overlay1 {
+        display: none !important;
     }
 }
