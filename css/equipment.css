@@ -2,8 +2,7 @@ body {
   font: 18px noto sans serif;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a, a:link {
@@ -58,14 +57,9 @@ span {
   max-width: 480px;
   margin: 0 auto;
   height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   font-size: 22px;
   color: #0F70A3;
 }
@@ -76,7 +70,6 @@ span {
 
 .section-wrap .tool-wrap h4 {
   text-align: center;
-  border-top: 1px solid #0F70A3;
   height: 60px;
   line-height: 60px;
   font-size: 26px;
@@ -87,11 +80,8 @@ span {
 .section-wrap .tool-wrap .tool-wrap-top {
   max-width: 1200px;
   margin: 30px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .section-wrap .tool-wrap .tool-wrap-top .tool1 {
@@ -133,11 +123,8 @@ span {
 .section-wrap .tool-wrap .tool-wrap-bottom {
   max-width: 1200px;
   margin: 30px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   margin-bottom: 30px;
 }
 
@@ -193,17 +180,10 @@ span {
 }
 
 .section-wrap .tool-tabwrap .tool-tab li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 100px;
-          column-gap: 100px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  column-gap: 100px;
+  align-items: center;
   padding: 100px 0;
   height: 450px;
 }
@@ -244,7 +224,6 @@ span {
   line-height: 27px;
   background: transparent;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
@@ -267,7 +246,6 @@ span {
   right: 0;
   z-index: -1;
   background-color: #0F70A3;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -287,14 +265,9 @@ span {
 .section-wrap .tool-tabwrap .tool-tabNav {
   max-width: 1200px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 30px;
-          column-gap: 30px;
+  justify-content: center;
+  column-gap: 30px;
   border-top: 1px solid #0F70A3;
   padding: 50px 0;
 }
@@ -355,11 +328,8 @@ span {
     margin: 20px 0;
   }
   .section-wrap .m-tool-wrap .m-tool-wrap1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     margin: 30px 0;
   }
   .section-wrap .m-tool-wrap .m-tool-wrap1 .tool1 {
@@ -377,10 +347,7 @@ span {
     height: 100px;
   }
   .section-wrap .m-tool-wrap .m-tool-wrap2 {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    justify-content: space-around;
     display: flex;
     margin: 30px 0;
   }
@@ -399,11 +366,8 @@ span {
     height: 100px;
   }
   .section-wrap .m-tool-wrap .m-tool-wrap3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     margin: 30px 0;
   }
   .section-wrap .m-tool-wrap .m-tool-wrap3 .tool5 {
@@ -421,11 +385,8 @@ span {
     height: 100px;
   }
   .section-wrap .m-tool-wrap .m-tool-wrap4 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     margin: 30px 0;
   }
   .section-wrap .m-tool-wrap .m-tool-wrap4 .tool7 {
@@ -472,15 +433,13 @@ span {
     padding: 0 20px;
   }
   .section-wrap .tool-tabwrap .tool-tab li .tool-text button {
-    -webkit-transform: scale(0.7);
-            transform: scale(0.7);
+    transform: scale(0.7);
   }
   .section-wrap .tool-tabwrap .tool-tabNav {
     max-width: 100%;
     margin: 0 auto;
     padding: 30px;
-    -webkit-column-gap: 10px;
-            column-gap: 10px;
+    column-gap: 10px;
   }
   .section-wrap .tool-tabwrap .tool-tabNav .tab-button img {
     width: 80px;
