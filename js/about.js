@@ -99,8 +99,8 @@ function fadein4(){
 
         
         if(valueh3 > -500){
-            $('.people-text > h2').fadeIn(300)
-            $('.people-text > p').fadeIn(600)
+            $('.people-text > h2').fadeIn(300);
+            $('.people-text > p').fadeIn(600);
         }
     })
 }
