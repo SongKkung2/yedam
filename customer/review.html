@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icgiton">
+    <title>리뷰</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/review.css">
+    <script src="../js/juqery.3.6.0.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- 서머노트를 위해 추가해야할 부분 -->
+    <script src="../summerNote/summernote-lite.js"></script>
+    <script src="../summerNote/summernote-lite.css"></script>
+    <link rel="stylesheet" href="../summerNote/summernote-lite.css">
+    <!--  -->
+</head>
+
+<body>
+  <header>
+    <div class="header-wrap">
+        <ul class="icons1">
+            <li><a href="../index.html"><img src="../images/home.svg" alt="처음으로"></a></li>
+            <li><a href="#"><img src="../images/call.svg" alt="상담 전화 연결"></a></li>
+        </ul>
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo.svg" alt="예담 로고"></a>
+        </div>
+        <ul class="icons2">
+            <li><a href="#"><img src="../images/facebook.svg" alt="예담 페이스북"></a></li>
+            <li><a href="#"><img src="../images/kakao.svg" alt="예담 카카오"></a></li>
+            <li><a href="#"><img src="../images/youtube.svg" alt="예담 유투브"></a></li>
+        </ul>
+    </div>
+        </div>
+    </header>
+    <div class="mobile-menu">
+        <div class="mobile-logo">
+            <img src="../images/logo.svg" alt="로고 이미지">
+        </div>
+        <div class="burger-menu">
+            <ul class="burder-icon">
+                <li><img src="../images/mobile-burger.svg" alt="버거메뉴"></li>
+            </ul>
+            <div class="gnb-mobile-wrap">
+                <ul id="gnb-mobile">
+                    <li>
+                        <a href="#">
+                            <p>예담</p>
+                            <p><i class="fa-solid fa-plus"></i></p>
+                        </a>
+                        <ul class="lnb-mobile">
+                            <li><a href="../company/about.html">회사 소개</a></li>
+                            <li><a href="../company/history.html">주요 이력</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>다조사</p>
+                            <p><i class="fa-solid fa-plus"></i></p>
+                        </a>
+                        <ul class="lnb-mobile">
+                            <li><a href="../dazosa/reason.html">다조사 Why?</a></li>
+                            <li><a href="../dazosa/equipment.html">다조사 장비</a></li>
+                            <li><a href="../dazosa/contact.html">다조사 신청하기</a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>서비스</p>
+                            <p><i class="fa-solid fa-plus"></i></p>
+                        </a>
+                        <ul class="lnb-mobile">
+                            <li><a href="../service/step.html">서비스 절차</a></li>
+                            <li><a href="../service/report.html">보고서 작성</a></li>
+                            <li><a href="../service/contact.html">서비스 신청하기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>고객 지원</p>
+                            <p><i class="fa-solid fa-plus"></i></p>
+                        </a>
+                        <ul class="lnb-mobile">
+                            <li><a href="./faq.html">상담 신청</a></li>
+                            <li><a href="./review.html">고객 후기</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="nav-slide-wrap">
+        <nav>
+            <ul id="gnb">
+                <li>
+                    <a href="#">예담</a>
+                    <ul class="lnb">
+                        <li><a href="../company/about.html">회사 소개</a></li>
+                        <li><a href="../company/history.html">주요 이력</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">다조사</a>
+                    <ul class="lnb">
+                        <li><a href="../dazosa/reason.html">다조사 Why?</a></li>
+                        <li><a href="../dazosa/equipment.html">다조사 장비</a></li>
+                        <li><a href="../dazosa/contact.html">다조사 신청하기</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">서비스</a>
+                    <ul class="lnb">
+                        <li><a href="../service/step.html">서비스 절차</a></li>
+                        <li><a href="../service/report.html">보고서 작성</a></li>
+                        <li><a href="../service/contact.html">서비스 신청하기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">고객 지원</a>
+                    <ul class="lnb">
+                        <li><a href="../customer/contact.html">상담 신청</a></li>
+                        <li><a href="../customer/review.html">고객 후기</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-line"></div>
+        </nav>
+
+        <div class="section-wrap">
+            <div class="hero-wrap">
+                <img class="animate__animated animate__fadeInUp" src="../images/customer/customertitle.svg" alt="hero"></
+            </div>
+    </div>
+    <div class="midmenu">
+        <a href="./contact.html"><h3>자주 묻는 질문</h3></a>
+        <a href="./review.html"><h3>고객후기</h3></a>
+    </div>
+    <article class="review">
+        <div class="title">
+            <h2>고객후기</h2>
+        </div>
+        <ul class="review-wrap">
+            <li>
+                <img src="../images/customer/review1.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>타일이 들떠있었는데, 찾아주셔서..</p>
+                    <h5>선영훈</h5>
+                    <h6>2021/12/30</h6>
+                </div>
+            </li>
+            <li>
+                <img src="../images/customer/review2.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>현관문에 유격이 있어서 문이 안...</p>
+                    <h5>송채은</h5>
+                    <h6>2021/05/19</h6>
+                </div>
+            </li>
+            <li>
+                <img src="../images/customer/review3.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>누수가 있어서 곰팡이가 있었습...</p>
+                    <h5>오수진</h5>
+                    <h6>2021/03/03</h6>
+                </div>
+            </li>
+            <li>
+                <img src="../images/customer/review4.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>벽지가 다 들떠있었습니다. 그냥...</p>
+                    <h5>조진양</h5>
+                    <h6>2021/07/07</h6>
+                </div>
+            </li>
+        </ul>
+        <ul class="review-wrap">
+            <li>
+                <img src="../images/customer/review5.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>안방 붙박이장에 흠집이 나있었...</p>
+                    <h5>김정은</h5>
+                    <h6>2021/12/30</h6>
+                </div>
+            </li>
+            <li>
+                <img src="../images/customer/review6.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>부부욕실 타일 실리콘 마감이 미...</p>
+                    <h5>이인재</h5>
+                    <h6>2021/05/19</h6>
+                </div>
+            </li>
+            <li>
+                <img src="../images/customer/review7.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>세탁기쪽에 크랙이 있어 누수가...</p>
+                    <h5>박정호</h5>
+                    <h6>2021/03/03</h6>
+                </div>
+            </li>
+            <li>
+                <img src="../images/customer/review8.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>다용도실 배수구 부분이 엉망이...</p>
+                    <h5>박병수</h5>
+                    <h6>2021/07/07</h6>
+                </div>
+            </li>
+        </ul>
+        <ul class="review-wrap">
+            <li>
+                <img src="../images/customer/review9.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>싱크대 밑 선반쪽이 깨져있었기...</p>
+                    <h5>김준태</h5>
+                    <h6>2021/12/30</h6>
+                </div>
+            </li>
+            <li>
+                <img src="../images/customer/review10.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>천장 부분이라 그냥 넘어갈 수도...</p>
+                    <h5>김유진</h5>
+                    <h6>2021/05/19</h6>
+                </div>
+            </li>
+            <li>
+                <img src="../images/customer/review11.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>벽지가 다 들떴어요 시공사 장난...</p>
+                    <h5>김한나</h5>
+                    <h6>2021/03/03</h6>
+                </div>
+            </li>
+            <li>
+                <img src="../images/customer/review12.jpg" alt="리뷰이미지">
+                <div class="review-text">
+                    <p>줄눈 공사가 잘 되지 않았네요..</p>
+                    <h5>정상혁</h5>
+                    <h6>2021/07/07</h6>
+                </div>
+            </li>
+        </ul>
+        <a href="#"><button class="custom-btn btn-15"><span>리뷰 작성하기</span></button></a>
+    </article>
+    <div class="bottommenu_wrap">
+        
+            <div class="wrap-wrap">
+                <div class="icon-btn-wrap">
+                    <div class="first">
+                        <div class="icon">
+                            <img src="../images/customer/reviewstar.svg" alt="리뷰이미지">
+                        </div>
+                        <div class="text-btn-wrap">
+                            <h2>
+                                여러분의<br>
+                                <span>소중한 리뷰</span>
+                            </h2>
+                            <a href="#">리뷰 작성하기</a>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="icon">
+                            <img src="../images/customer/woman.svg" alt="상담원">
+                        </div>
+                        <div class="text-btn-wrap">
+                            <h2>
+                                그 외 문의사항<br>
+                                <span>1500 - 0000</span>
+                            </h2>
+                            <a href="#">문의 하기</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="ansdml">
+        <h2>문의하기</h2>
+    </div>
+    <div class="contact-wrap">
+        <form id="contact" autocomplete="off">
+            <div>
+                <input type="text" name="name" placeholder="성함을 입력하세요">
+            </div>
+            <div>
+                <select>
+                    <option value="010" selected>010</option>
+                    <option value="011">011</option>
+                    <option value="016">016</option>
+                    <option value="017">017</option>
+                    <option value="018">018</option>
+                    <option value="019">019</option>
+                </select>-
+                <input type="tel" name="phone2" id="phone2" minlength="1" maxlength="4" pattern="[0-9]{4}">-
+                <input type="tel" name="phone3" id="phone3" minlength="1" maxlength="4">
+            </div>
+            <div>
+                <input type="text" name="email_id" id="email_id" placeholder="example" > @
+                <input type="text" name="email_addr" id="email_addr">
+                <select id="domain">
+                    <option value="1" selected>직접입력</option>
+                    <option value="google.com">google.com</option>
+                    <option value="naver.com">naver.com</option>
+                    <option value="daum.net">daum.net</option>
+                    <option value="kakao.com">kakao.com</option>
+                    <option value="nate.com">nate.com</option>
+                </select>
+            </div>
+            
+        </form>
+        <div class="container-wrap">
+            <div class="container">
+                <textarea class="summernote" name="editordata"></textarea>
+            </div>
+            <div class="subbtn">
+                <input type="submit" value="제출">
+            </div>
+        </div>
+    </div>
+    <script>
+      $('.summernote').summernote({
+            height: 450,
+            lang: "ko-KR"
+          });
+      </script>
+    <script src="../js/contact.js"> </script>
+    <script src="../js/global.js"></script>
+    <aside>
+        <ul class="bottom-gnb">
+            <li>
+                <a href="#">예담</a>
+                <ul class="bottom-lnb">
+                    <li><a href="../company/about.html">회사 소개</a></li>
+                    <li><a href="../company/history.html">주요 이력</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">다조사</a>
+                <ul class="bottom-lnb">
+                    <li><a href="../dazosa/reason.html">다조사 Why?</a></li>
+                    <li><a href="../dazosa/equipment.html">다조사 장비</a></li>
+                    <li><a href="../dazosa/contact.html">다조사 신청하기</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">서비스</a>
+                <ul class="bottom-lnb">
+                    <li><a href="../service/step.html">서비스 절차</a></li>
+                    <li><a href="../service/report.html">보고서 작성</a></li>
+                    <li><a href="../service/contact.html">서비스 신청하기</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">고객 지원</a>
+                <ul class="bottom-lnb">
+                    <li><a href="./faq.html">상담 신청</a></li>
+                    <li><a href="./review.html">고객 후기</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="line"></div>
+    </aside>
+    <footer>
+        <div class="footer-wrap">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo-white.svg" alt="예담 로고">
+                </a>
+            </div>
+            <div class="footer-text">
+                <p>주식회사 예담 | 대표자 : 강정구 |주소 : 광주광역시 북구 용주로 10 2</p>
+                <p>고객센터 : 1577-1603  | 운영시간 : 09:00 ~ 18:00 ) | 사업자 등록 번호 : 000-00-00000</p>
+                <p>계좌번호 : 광주은행 1514215-1264564 (입금자 명 : 주식회사 예담)</p>
+                <h4>Copyright &copy; <span>YEDAM</span>. All Rights Reserved.</h4>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

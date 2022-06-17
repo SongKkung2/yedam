@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icgiton">
+    <title>예담</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/faq.css">
+    <script src="../js/juqery.3.6.0.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- 서머노트를 위해 추가해야할 부분 -->
+    <script src="../summerNote/summernote-lite.js"></script>
+    <script src="../summerNote/summernote-lite.css"></script>
+    <link rel="stylesheet" href="../summerNote/summernote-lite.css">
+    <!--  -->
+</head>
+
+<body>
+<header>
+        <div class="header-wrap">
+            <ul class="icons1">
+                <li><a href="../index.html"><img src="../images/home.svg" alt="처음으로"></a></li>
+                <li><a href="#"><img src="../images/call.svg" alt="상담 전화 연결"></a></li>
+            </ul>
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo.svg" alt="예담 로고"></a>
+            </div>
+            <ul class="icons2">
+                <li><a href="#"><img src="../images/facebook.svg" alt="예담 페이스북"></a></li>
+                <li><a href="#"><img src="../images/kakao.svg" alt="예담 카카오"></a></li>
+                <li><a href="#"><img src="../images/youtube.svg" alt="예담 유투브"></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="mobile-menu">
+        <div class="mobile-logo">
+            <img src="../images/logo.svg" alt="로고 이미지">
+        </div>
+        <div class="burger-menu">
+            <ul class="burder-icon">
+                <li><img src="../images/mobile-burger.svg" alt="버거메뉴"></li>
+            </ul>
+            <div class="gnb-mobile-wrap">
+                <ul id="gnb-mobile">
+                    <li>
+                        <a href="#">
+                            <p>예담</p>
+                            <p><i class="fa-solid fa-plus"></i></p>
+                        </a>
+                        <ul class="lnb-mobile">
+                            <li><a href="../company/about.html">회사 소개</a></li>
+                            <li><a href="../company/history.html">주요 이력</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>다조사</p>
+                            <p><i class="fa-solid fa-plus"></i></p>
+                        </a>
+                        <ul class="lnb-mobile">
+                            <li><a href="../dazosa/reason.html">다조사 Why?</a></li>
+                            <li><a href="../dazosa/equipment.html">다조사 장비</a></li>
+                            <li><a href="../dazosa/contact.html">다조사 신청하기</a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>서비스</p>
+                            <p><i class="fa-solid fa-plus"></i></p>
+                        </a>
+                        <ul class="lnb-mobile">
+                            <li><a href="../service/step.html">서비스 절차</a></li>
+                            <li><a href="../service/report.html">보고서 작성</a></li>
+                            <li><a href="../service/contact.html">서비스 신청하기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>고객 지원</p>
+                            <p><i class="fa-solid fa-plus"></i></p>
+                        </a>
+                        <ul class="lnb-mobile">
+                            <li><a href="./faq.html">상담 신청</a></li>
+                            <li><a href="./review.html">고객 후기</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="nav-slide-wrap">
+        <nav>
+            <ul id="gnb">
+                <li>
+                    <a href="#">예담</a>
+                    <ul class="lnb">
+                        <li><a href="../company/about.html">회사 소개</a></li>
+                        <li><a href="../company/history.html">주요 이력</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">다조사</a>
+                    <ul class="lnb">
+                        <li><a href="../dazosa/reason.html">다조사 Why?</a></li>
+                        <li><a href="../dazosa/equipment.html">다조사 장비</a></li>
+                        <li><a href="../dazosa/contact.html">다조사 신청하기</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">서비스</a>
+                    <ul class="lnb">
+                        <li><a href="../service/step.html">서비스 절차</a></li>
+                        <li><a href="../service/report.html">보고서 작성</a></li>
+                        <li><a href="../service/contact.html">서비스 신청하기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">고객 지원</a>
+                    <ul class="lnb">
+                        <li><a href="../customer/contact.html">상담 신청</a></li>
+                        <li><a href="../customer/review.html">고객 후기</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-line"></div>
+        </nav>
+        
+<div class="section-wrap">
+            <div class="hero-wrap">
+                <img class="animate__animated animate__fadeInUp" src="../images/customer/customertitle.svg" alt="hero"></div>
+            </div>
+    </div>
+    <div class="midmenu">
+        <a href="./faq.html"><h3>자주 묻는 질문</h3></a>
+        <a href="./review.html"><h3>고객후기</h3></a>
+    </div>
+    <div class="midtitle">
+        <p>자주 묻는 질문</p>
+        <div class="midwrap">
+            <ul class="items1">
+                <li>
+                    <h2>
+                        Q.전액 선불 지급이던데<br>
+                        계약금만 걸어놓고 진행 할 수 없나요??
+                    </h2>
+                    <img src="../images/customer/cost.svg" alt="비용">
+                    <p>
+                        A. 계약금만 받고 진행을 하게 되면 점검 당일날 혹은 전날 연락이<br>
+                        안되거나 취소하시는 고객님들이 너무 많아져서 전액 선입금 받고 <br>
+                        진행하고 있습니다.
+                    </p>
+                </li>
+                <li>
+                    <h2>Q. STANDARD 기준 평당 14500원씩<br>
+                        공급면적기준이던데 공용부문도 점검해주시나요?</h2>
+                    <img src="../images/customer/report.svg" alt="리포트">
+                    <p>
+                        A. 아닙니다. 공용부분은 포함 된 것이 아니고, 거주공간(실내공간, 발코니,<br>
+                        실외기실 및 대피공간, 보조 주방등)만을 점검해 드리고 있습니다.
+                    </p>
+                </li>
+            </ul>
+            <ul class="items2">
+                <li>
+                    <h2>Q. 점검 할 때 꼭 옆에 있어야 하나요?</h2>
+                    <img src="../images/customer/handshake.svg" alt="악수">
+                    <p>
+                        A. 계약금만 받고 진행을 하게 되면 점검 당일날 혹은 전날 연락이<br>
+                        안되거나 취소하시는 고객님들이 너무 많아져서 전액 선입금 받고<br>
+                        진행하고 있습니다
+                    </p>
+                </li>
+                <li>
+                    <h2>Q. 다조사 서비스를 이용하면 모든 하자를 <br> 다 찾기 가능하나요?</h2>
+                    <img src="../images/customer/zoom.svg" alt="다조사">
+                    <p>
+                        A. 가능합니다. 예담에서 제공하는 사전점검 서비스는 400여가지 항목을<br>
+                        점검할 수 있는자체 체크리스트로 건축전문가분께서 꼼꼼히 점검해주시므로<br>
+                        작은 흠집이나 오염까지 확인해드립니다
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="ansdml">
+        <h2>문의하기</h2>
+    </div>
+    <div class="contact-wrap">
+        <form id="contact" autocomplete="off">
+            <div>
+                <input type="text" name="name" placeholder="성함을 입력하세요">
+            </div>
+            <div>
+                <select>
+                    <option value="010" selected>010</option>
+                    <option value="011">011</option>
+                    <option value="016">016</option>
+                    <option value="017">017</option>
+                    <option value="018">018</option>
+                    <option value="019">019</option>
+                </select>-
+                <input type="tel" name="phone2" id="phone2" minlength="1" maxlength="4" pattern="[0-9]{4}">-
+                <input type="tel" name="phone3" id="phone3" minlength="1" maxlength="4">
+            </div>
+            <div>
+                <input type="text" name="email_id" id="email_id" placeholder="example" > @
+                <input type="text" name="email_addr" id="email_addr">
+                <select id="domain">
+                    <option value="1" selected>직접입력</option>
+                    <option value="google.com">google.com</option>
+                    <option value="naver.com">naver.com</option>
+                    <option value="daum.net">daum.net</option>
+                    <option value="kakao.com">kakao.com</option>
+                    <option value="nate.com">nate.com</option>
+                </select>
+            </div>
+            
+        </form>
+        <div class="container-wrap">
+            <div class="container">
+                <textarea class="summernote" name="editordata"></textarea>
+            </div>
+            <div class="subbtn">
+                <input type="submit" value="제출">
+            </div>
+        </div>
+    </div>
+    <script>
+      $('.summernote').summernote({
+            height: 450,
+            lang: "ko-KR"
+          });
+      </script>
+    <script src="/js/contact.js"> </script>
+    <script src="/js/global.js"></script>
+    <aside>
+        <ul class="bottom-gnb">
+            <li>
+                <a href="#">예담</a>
+                <ul class="bottom-lnb">
+                    <li><a href="../company/about.html">회사 소개</a></li>
+                    <li><a href="../company/history.html">주요 이력</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">다조사</a>
+                <ul class="bottom-lnb">
+                    <li><a href="../dazosa/reason.html">다조사 Why?</a></li>
+                    <li><a href="../dazosa/equipment.html">다조사 장비</a></li>
+                    <li><a href="../dazosa/contact.html">다조사 신청하기</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">서비스</a>
+                <ul class="bottom-lnb">
+                    <li><a href="../service/step.html">서비스 절차</a></li>
+                    <li><a href="../service/report.html">보고서 작성</a></li>
+                    <li><a href="../service/contact.html">서비스 신청하기</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">고객 지원</a>
+                <ul class="bottom-lnb">
+                    <li><a href="./faq.html">상담 신청</a></li>
+                    <li><a href="./review.html">고객 후기</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="line"></div>
+    </aside>
+    <footer>
+        <div class="footer-wrap">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo-white.svg" alt="예담 로고">
+                </a>
+            </div>
+            <div class="footer-text">
+                <p>주식회사 예담 | 대표자 : 강정구 |주소 : 광주광역시 북구 용주로 10 2</p>
+                <p>고객센터 : 1577-1603  | 운영시간 : 09:00 ~ 18:00 ) | 사업자 등록 번호 : 000-00-00000</p>
+                <p>계좌번호 : 광주은행 1514215-1264564 (입금자 명 : 주식회사 예담)</p>
+                <h4>Copyright &copy; <span>YEDAM</span>. All Rights Reserved.</h4>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

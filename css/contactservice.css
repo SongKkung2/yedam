@@ -61,3 +61,50 @@ span {
     font-size: 22px;
     color: #0F70A3;
 }
+.ansdml h2{
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 100px;
+    text-align: center;
+    color: #0F70A3;
+}
+.subbtn{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px 0 ;
+}
+.contact-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 30px;
+}
+#contact div{
+    padding: 10px;
+    
+}
+.subbtn{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+.subbtn > input {
+    padding: 10px 80px;
+    border: 0;
+    color: #0f70a3;
+    font-size: 22px ;
+    font-weight: bold;
+    background: #fff;
+    border: 1px solid #0f70a3;
+}
+.subbtn > input:hover{
+    background: #0f70a3;
+    color: white;
+}
