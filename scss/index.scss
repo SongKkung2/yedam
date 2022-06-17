@@ -545,6 +545,7 @@
         align-items: center;
         column-gap: 30px;
         margin-bottom: 100px;
+        transition: all ease-in-out .3s;
 
         li{
             margin-top: 50px;
@@ -554,6 +555,7 @@
             flex-direction: column;
             align-items: center;
             padding: 5px 0;
+            transition: all ease-in-out .3s;
             img{
                 width: 240px;
                 height: 240px;
