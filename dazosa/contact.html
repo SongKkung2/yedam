@@ -13,6 +13,9 @@
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/contactdazosa.css">
     <link rel="stylesheet" href="../css/global.css">
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/lang/summernote-ko-KR.min.js"></script>
     <!-- 서머노트를 위해 추가해야할 부분 -->
     <script src="../summerNote/summernote-lite.js"></script>
     <script src="../summerNote/summernote-lite.css"></script>
@@ -165,10 +168,55 @@
             </div>
 
             <!-- 여기에 내용 넣어주세요 -->
-
-
-
-
+            <div class="ansdml">
+                <h2>문의하기</h2>
+            </div>
+            <div class="contact-wrap">
+                <form id="contact" autocomplete="off">
+                    <div>
+                        <input type="text" name="name" placeholder="성함을 입력하세요">
+                    </div>
+                    <div>
+                        <select>
+                            <option value="010" selected>010</option>
+                            <option value="011">011</option>
+                            <option value="016">016</option>
+                            <option value="017">017</option>
+                            <option value="018">018</option>
+                            <option value="019">019</option>
+                        </select>-
+                        <input type="tel" name="phone2" id="phone2" minlength="1" maxlength="4" pattern="[0-9]{4}">-
+                        <input type="tel" name="phone3" id="phone3" minlength="1" maxlength="4">
+                    </div>
+                    <div>
+                        <input type="text" name="email_id" id="email_id" placeholder="example" > @
+                        <input type="text" name="email_addr" id="email_addr">
+                        <select id="domain">
+                            <option value="1" selected>직접입력</option>
+                            <option value="google.com">google.com</option>
+                            <option value="naver.com">naver.com</option>
+                            <option value="daum.net">daum.net</option>
+                            <option value="kakao.com">kakao.com</option>
+                            <option value="nate.com">nate.com</option>
+                        </select>
+                    </div>
+                    
+                </form>
+                <div class="container-wrap">
+                    <div class="container">
+                        <textarea class="summernote" name="editordata"></textarea>
+                    </div>
+                    <div class="subbtn">
+                        <input type="submit" value="제출">
+                    </div>
+                </div>
+            </div>
+            <script>
+              $('.summernote').summernote({
+                    height: 450,
+                    lang: "ko-KR"
+                  });
+              </script>
 
 
 
@@ -176,7 +224,6 @@
 
 
         </section>
-
         <aside>
             <ul class="bottom-gnb">
                 <li>

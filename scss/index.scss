@@ -1,4 +1,6 @@
-
+.Y-none{
+    display: none !important;
+}
 .mobile-slide{
     display: none;
 }
@@ -643,9 +645,14 @@
 }
 
 @media only screen and (max-width: 425px){
+    
     .P-none{
         display: block !important;
     }
+    .Y-none{
+        display: none;
+    }
+    
     .mobile-slide{
         top: 50px;
         display: block;

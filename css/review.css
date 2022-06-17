@@ -10,7 +10,17 @@ a{
     text-decoration: none;
     color: inherit;
 }
-  
+ul.lnb > li > a{
+    text-decoration: none;
+    color: inherit;
+}
+ul.bottom-gnb li a{
+    text-decoration: double;
+    color: inherit;
+}
+.midmenu > a:hover{
+    text-decoration: none;
+}
 ul,li{
     list-style-type: none;
 }
@@ -440,4 +450,8 @@ ul,li{
     width: 500px;
     height: 200px;
     column-gap: 20px;
+}
+
+aside > .bottom-gnb a{
+    color: #0f70a3;
 }
